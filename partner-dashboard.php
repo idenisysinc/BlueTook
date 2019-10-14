@@ -1,5 +1,5 @@
 
-	<?php include('../header.php') ?>
+	<?php include('header.php') ?>
 	<!-- /main navbar -->
 
 
@@ -7,7 +7,7 @@
 	<div class="page-content">
 
 		<!-- Main sidebar -->
-		<?php include('main-sidebar.php') ?>
+		<?php include('partner-main-sidebar.php') ?>
 		<!-- /main sidebar -->
 
 
@@ -36,12 +36,14 @@
 
 
 			<!-- Content area -->
-			<div class="h-100"></div>
+			<div class="content">
+
+			</div>
 			<!-- /content area -->
 
 
 			<!-- Footer -->
-			<?php include('../footer.php') ?>
+			<?php include('footer.php') ?>
 			<!-- /footer -->
 
 		</div>

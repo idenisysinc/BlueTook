@@ -1,5 +1,5 @@
 
-	<?php include('../header.php') ?>
+	<?php include('header.php') ?>
 	<!-- /main navbar -->
 
 
@@ -166,7 +166,7 @@
 
 
 			<!-- Footer -->
-			<?php include('../footer.php') ?>
+			<?php include('footer.php') ?>
 			<!-- /footer -->
 
 		</div>

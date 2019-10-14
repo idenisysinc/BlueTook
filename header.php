@@ -5,30 +5,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Dynamic Title</title>
-	<link rel="icon" href="../assets/images/bluetook-favicon.png" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/images/bluetook-favicon.png" type="image/gif" sizes="16x16">
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="../assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
-	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
-	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
-	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
-	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
-	<link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/custom.css" rel="stylesheet" type="text/css">
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script src="../assets/js/main/jquery.min.js"></script>
-	<script src="../assets/js/main/bootstrap.bundle.min.js"></script>
-	<script src="../assets/js/plugins/loaders/blockui.min.js"></script>
+	<script src="assets/js/main/jquery.min.js"></script>
+	<script src="assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
 	<!-- script for form -->
-	<script src="../assets/js/plugins/forms/styling/uniform.min.js"></script>
-	<script src="../assets/js/demo_pages/login.js"></script>
+	<script src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="assets/js/demo_pages/login.js"></script>
 	<!-- /script for form -->
-	<script src="../assets/js/app.js"></script>
+	<!-- range slider -->
+	<script src="assets/js/plugins/sliders/ion_rangeslider.min.js"></script>
+	<script src="assets/js/demo_pages/extra_sliders_ion.js"></script>
+	<!-- /range slider -->
+	<!-- multiple select -->
+	<script src="assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script src="assets/js/demo_pages/form_select2.js"></script>
+	<!-- /multiple select -->
+	<script src="assets/js/app.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -38,7 +46,7 @@
 	<div class="navbar navbar-expand-md navbar-dark black-bg">
 		<div class="navbar-brand">
 			<a href="#" class="d-inline-block">
-				<img src="../assets/images/logo.png" alt="">
+				<img src="assets/images/logo.png" alt="">
 			</a>
 		</div>
 
@@ -70,7 +78,7 @@
 
 				<li class="nav-item dropdown dropdown-user">
 					<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
-						<img src="../assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+						<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
 						<span>Victoria</span>
 					</a>
 
