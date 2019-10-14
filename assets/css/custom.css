@@ -4,3 +4,43 @@
 .navbar-brand img{
 	height: 1.5rem;
 }
+.grey-bg{
+	background-color: #1b1b1b;
+}
+.sidebar-dark .nav-sidebar>.nav-item-open>.nav-link:not(.disabled), 
+.sidebar-dark .nav-sidebar>.nav-item>.nav-link.active, 
+.sidebar-light .card[class*=bg-]:not(.bg-light):not(.bg-white):not(.bg-transparent) .nav-sidebar>.nav-item-open>.nav-link:not(.disabled), 
+.sidebar-light .card[class*=bg-]:not(.bg-light):not(.bg-white):not(.bg-transparent) .nav-sidebar>.nav-item>.nav-link.active{
+	background-color: #373737!important;
+}
+.social-link{
+	color: #fff!important;
+}
+.social-link:hover{
+	color: rgba(255, 255, 255, 0.75)!important;
+}
+.btn{
+	background-color: #1b1b1b;
+}
+.btn:hover{
+	background-color: #373737;
+}
+.btn-light{
+	background-color: #fafafa;
+}
+.btn-light:hover{
+	background-color: #f5f5f5;
+}
+/*------- Media Query --------*/
+@media (min-width: 768px){
+.sidebar-xs .sidebar-main.sidebar-dark .nav-sidebar>.nav-item-submenu>.nav-group-sub {
+    background-color: #1b1b1b;
+    border-left: 1px solid rgba(255,255,255,.1);
+}
+}
+@media (min-width: 768px){
+.sidebar-xs .sidebar-main .nav-sidebar>.nav-item-submenu>.nav-group-sub[data-submenu-title]:before {
+    padding-bottom: .75rem;
+    border-bottom: 1px solid #676767;
+}
+}
