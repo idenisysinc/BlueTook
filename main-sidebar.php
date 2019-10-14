@@ -57,9 +57,9 @@
 					<a href="#" class="nav-link"><i class="icon-users4"></i> <span>Leads</span></a>
 
 					<ul class="nav nav-group-sub" data-submenu-title="Leads">
-						<li class="nav-item"><a href="#" class="nav-link">New Leads</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">New Leads <span class="badge badge-success align-self-center ml-auto">2.2</span></a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Responded Leads</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Missed Leads</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Missed Leads <span class="badge badge-danger align-self-center ml-auto">2.2</span></a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Rejected Leads</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Closed Leads</a></li>
 					</ul>
@@ -68,9 +68,8 @@
 					<a href="#" class="nav-link"><i class="icon-briefcase3"></i> <span>Jobs</span></a>
 
 					<ul class="nav nav-group-sub" data-submenu-title="Jobs">
-						<li class="nav-item"><a href="#" class="nav-link">New Jobs</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">New Jobs  <span class="badge badge-success align-self-center ml-auto">2.2</span></a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Ongoing Jobs</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Missed Leads</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Closed Jobs</a></li>
 						<li class="nav-item"><a href="#" class="nav-link">Jobs Feedback</a></li>
 					</ul>
