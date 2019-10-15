@@ -74,6 +74,25 @@
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group form-group-feedback form-group-feedback-right">
+												<input type="password" class="form-control" placeholder="Password">
+												<div class="form-control-feedback">
+													<i class="icon-lock2 text-muted"></i>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-6">
+											<div class="form-group form-group-feedback form-group-feedback-right">
+												<input type="password" class="form-control" placeholder="Confirm Password">
+												<div class="form-control-feedback">
+													<i class="icon-lock2 text-muted"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group form-group-feedback form-group-feedback-right">
 												<input type="text" class="form-control" placeholder="Mobile">
 												<div class="form-control-feedback">
 													<i class="icon-mobile text-muted"></i>

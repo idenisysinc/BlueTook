@@ -31,6 +31,21 @@
 .btn-light:hover{
 	background-color: #f5f5f5;
 }
+.uniform-checker span, .uniform-choice span{
+	border: .125rem solid #1b1b1b;
+}
+.uniform-checker span{
+	color: #1b1b1b;
+}
+.select2-selection--multiple .select2-selection__choice{
+	background-color: #1b1b1b;
+}
+.select2-selection--multiple .select2-selection__choice:focus, .select2-selection--multiple .select2-selection__choice:hover{
+	background-color: #373737;
+}
+.irs-bar{
+	background-color: #373737;
+}
 /*------- Media Query --------*/
 @media (min-width: 768px){
 .sidebar-xs .sidebar-main.sidebar-dark .nav-sidebar>.nav-item-submenu>.nav-group-sub {
