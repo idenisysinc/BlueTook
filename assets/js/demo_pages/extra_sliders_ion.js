@@ -415,41 +415,41 @@ var IonSlider = function() {
 
 
         // Moment.js format
-        $('#ion-moment-basic').ionRangeSlider({
-            grid: true,
-            min: +moment().subtract(1, 'years').format('X'),
-            max: +moment().format('X'),
-            from: +moment().subtract(6, 'months').format('X'),
-            force_edges: true,
-            prettify: function (num) {
-                return moment(num, 'X').format('ll');
-            }
-        });
+        // $('#ion-moment-basic').ionRangeSlider({
+        //     grid: true,
+        //     min: +moment().subtract(1, 'years').format('X'),
+        //     max: +moment().format('X'),
+        //     from: +moment().subtract(6, 'months').format('X'),
+        //     force_edges: true,
+        //     prettify: function (num) {
+        //         return moment(num, 'X').format('ll');
+        //     }
+        // });
 
         // Time format
-        $('#ion-moment-time').ionRangeSlider({
-            grid: true,
-            min: +moment().subtract(12, 'hours').format('X'),
-            max: +moment().format('X'),
-            from: +moment().subtract(6, 'hours').format('X'),
-            force_edges: true,
-            prettify: function (num) {
-                return moment(num, 'X').format('hh:mm A');
-            }
-        });
+        // $('#ion-moment-time').ionRangeSlider({
+        //     grid: true,
+        //     min: +moment().subtract(12, 'hours').format('X'),
+        //     max: +moment().format('X'),
+        //     from: +moment().subtract(6, 'hours').format('X'),
+        //     force_edges: true,
+        //     prettify: function (num) {
+        //         return moment(num, 'X').format('hh:mm A');
+        //     }
+        // });
 
         // Localization
-        $('#ion-moment-local').ionRangeSlider({
-            grid: true,
-            min: +moment().subtract(11, 'months').format('X'),
-            max: +moment().format('X'),
-            from: +moment().subtract(6, 'months').format('X'),
-            force_edges: true,
-            prettify: function (num) {
-                var m = moment(num, 'X').locale('ru');
-                return m.format('MMMM');
-            }
-        });
+        // $('#ion-moment-local').ionRangeSlider({
+        //     grid: true,
+        //     min: +moment().subtract(11, 'months').format('X'),
+        //     max: +moment().format('X'),
+        //     from: +moment().subtract(6, 'months').format('X'),
+        //     force_edges: true,
+        //     prettify: function (num) {
+        //         var m = moment(num, 'X').locale('ru');
+        //         return m.format('MMMM');
+        //     }
+        // });
     };
 
 
