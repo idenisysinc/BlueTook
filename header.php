@@ -44,7 +44,7 @@
 <body>
 	<!-- Main navbar -->
 	<div class="navbar navbar-expand-md navbar-dark black-bg">
-		<div class="navbar-brand">
+		<div class="navbar-brand mr-0">
 			<a href="#" class="d-inline-block">
 				<img src="assets/images/logo.png" alt="">
 			</a>
