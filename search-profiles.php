@@ -278,6 +278,18 @@
 								</div>
 							</div>
 							<!-- /row2 -->
+							<!-- pagination -->
+							<div class="w-100">
+								<ul class="pagination pagination-flat align-self-center float-right">
+									<li class="page-item"><a href="#" class="page-link">&larr; &nbsp; Prev</a></li>
+									<li class="page-item active"><a href="#" class="page-link">1</a></li>
+									<li class="page-item"><a href="#" class="page-link">2</a></li>
+									<li class="page-item disabled"><a href="#" class="page-link">3</a></li>
+									<li class="page-item"><a href="#" class="page-link">4</a></li>
+									<li class="page-item"><a href="#" class="page-link">Next &nbsp; &rarr;</a></li>
+								</ul>
+							</div>
+							<!-- /pagination -->
 						</div>
 						<!-- /User Details -->
 					</div>

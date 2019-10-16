@@ -64,6 +64,16 @@
 .btn.bg-slate-600:hover{
 	background-color: #546e7a;
 }
+.pagination-flat .page-item.active .page-link {
+    background-color: #1b1b1b;
+}
+.pagination-flat .page-link:focus, .pagination-flat .page-link:hover {
+    background-color: #373737;
+    color: #fff;
+}
+.page-item.active .page-link{
+	border-color: #1b1b1b;
+}
 /*------- Media Query --------*/
 @media (min-width: 768px){
 .sidebar-xs .sidebar-main.sidebar-dark .nav-sidebar>.nav-item-submenu>.nav-group-sub {
