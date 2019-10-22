@@ -74,6 +74,24 @@
 .page-item.active .page-link{
 	border-color: #1b1b1b;
 }
+#imgSlider{
+	-webkit-transform: translateY(-58px);
+	-moz-transform: translateY(-58px);
+	-o-transform: translateY(-58px);
+	transform: translateY(-58px);
+}
+#imgSlider img{
+	height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.spcl-btn{
+	background: transparent;
+	border: 2px solid #fff;
+}
+.spcl-btn:hover{
+	border: 2px solid transparent;
+}
 /*------- Media Query --------*/
 @media (min-width: 768px){
 .sidebar-xs .sidebar-main.sidebar-dark .nav-sidebar>.nav-item-submenu>.nav-group-sub {
@@ -86,4 +104,9 @@
     padding-bottom: .75rem;
     border-bottom: 1px solid #676767;
 }
+}
+@media(max-width: 767px){
+	.sm-mob-mb{
+		margin-bottom: 10px;
+	}
 }

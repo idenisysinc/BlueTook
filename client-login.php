@@ -66,7 +66,7 @@
 							</div>
 
 							<div class="form-group">
-								<a href="registration.php" class="btn btn-light btn-block">Sign up</a>
+								<a href="partner-registration.php" class="btn btn-light btn-block">Sign up</a>
 							</div>
 
 							<span class="form-text text-center text-muted">By continuing, you're confirming that you've read our <a href="#">Terms &amp; Conditions</a> and <a href="#">Cookie Policy</a></span>

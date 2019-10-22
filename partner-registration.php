@@ -30,22 +30,6 @@
 						<div class="col-lg-6">
 							<div class="mb-0">
 								<div class="card-body">
-									<div class="form-group">
-										<label class="d-block"><strong>Scope:</strong></label>
-										<div class="form-check form-check-inline">
-											<label class="form-check-label">
-												<input type="radio" class="form-input-styled" name="gender" checked data-fouc>
-												Client
-											</label>
-										</div>
-										<div class="form-check form-check-inline">
-											<label class="form-check-label">
-												<input type="radio" class="form-input-styled" name="gender" data-fouc>
-												Partner
-											</label>
-										</div>
-									</div>
-
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group form-group-feedback form-group-feedback-right">
