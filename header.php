@@ -36,6 +36,10 @@
 	<script src="assets/js/plugins/forms/selects/select2.min.js"></script>
 	<script src="assets/js/demo_pages/form_select2.js"></script>
 	<!-- /multiple select -->
+	<!-- upload Image -->
+	<script src="assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+	<script src="assets/js/demo_pages/uploader_bootstrap.js"></script>
+	<!-- /upload Image -->
 	<script src="assets/js/app.js"></script>
 	<!-- /theme JS files -->
 

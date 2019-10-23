@@ -92,7 +92,27 @@
 .spcl-btn:hover{
 	border: 2px solid transparent;
 }
+.slct-media{
+	top: -5px;
+	right: -5px;
+}
+.slct-media i{
+	font-size: 25px;
+    color: #000000;
+    background: #ffffff;
+}
+.left-border{
+	border-left: 1px solid #ddd;
+}
 /*------- Media Query --------*/
+@media(max-width: 991px){
+	.left-border{
+	border-left:none;
+}
+.top-border{
+	border-top: 1px solid #ddd;
+	}
+}
 @media (min-width: 768px){
 .sidebar-xs .sidebar-main.sidebar-dark .nav-sidebar>.nav-item-submenu>.nav-group-sub {
     background-color: #1b1b1b;
