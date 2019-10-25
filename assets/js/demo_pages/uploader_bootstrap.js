@@ -69,7 +69,8 @@ var FileUpload = function() {
             removeClass: '',
             removeErrorClass: 'text-danger',
             removeIcon: '<i class="icon-bin"></i>',
-            indicatorNew: '<i class="icon-file-plus text-success"></i>',
+            // Delete Icon add below in <a> tag
+            indicatorNew: '<i class="icon-file-plus text-success"></i> <a href="#" class="ml-2 text-danger-800" title="Delete"><i class="icon-bin"></i></a>',
             indicatorSuccess: '<i class="icon-checkmark3 file-icon-large text-success"></i>',
             indicatorError: '<i class="icon-cross2 text-danger"></i>',
             indicatorLoading: '<i class="icon-spinner2 spinner text-muted"></i>'
@@ -256,7 +257,8 @@ var FileUpload = function() {
                 uploadClass: '',
                 zoomIcon: '<i class="icon-zoomin3"></i>',
                 zoomClass: '',
-                indicatorNew: '<i class="icon-file-plus text-success"></i>',
+                // Delete Icon add below in <a> tag
+                indicatorNew: '<i class="icon-file-plus text-success"></i> <a href="#" class="ml-2 text-danger-800" title="Delete"><i class="icon-bin"></i></a>',
                 indicatorSuccess: '<i class="icon-checkmark3 file-icon-large text-success"></i>',
                 indicatorError: '<i class="icon-cross2 text-danger"></i>',
                 indicatorLoading: '<i class="icon-spinner2 spinner text-muted"></i>',

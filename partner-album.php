@@ -74,7 +74,7 @@
 								<div class="form-group row">
 									<label class="col-lg-2 col-form-label font-weight-semibold">Multiple file upload:</label>
 									<div class="col-lg-10">
-										<input type="file" class="file-input" multiple="multiple" data-fouc>
+										<input type="file" class="file-input upload-file" multiple="multiple" data-fouc>
 									</div>
 								</div>
 							</form>
@@ -98,7 +98,7 @@
 										<div class="row">
 											<div class="col-sm-3">
 												<a href="#">
-													<div class="card">
+													<div class="card media-lib-img">
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media">
@@ -110,7 +110,7 @@
 											</div>
 											<div class="col-sm-3">
 												<a href="#">
-													<div class="card">
+													<div class="card media-lib-img">
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
@@ -122,7 +122,7 @@
 											</div>
 											<div class="col-sm-3">
 												<a href="#">
-													<div class="card">
+													<div class="card media-lib-img">
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
@@ -134,7 +134,57 @@
 											</div>
 											<div class="col-sm-3">
 												<a href="#">
-													<div class="card">
+													<div class="card media-lib-img">
+														<div class="card-img-actions">
+															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
+															<div class="card-img-top position-absolute text-right slct-media d-none">
+																<i class="icon-checkbox-checked"></i>
+															</div>
+														</div>
+											    	</div>
+												</a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-3">
+												<a href="#">
+													<div class="card media-lib-img">
+														<div class="card-img-actions">
+															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
+															<div class="card-img-top position-absolute text-right slct-media">
+																<i class="icon-checkbox-checked"></i>
+															</div>
+														</div>
+											    	</div>
+												</a>
+											</div>
+											<div class="col-sm-3">
+												<a href="#">
+													<div class="card media-lib-img">
+														<div class="card-img-actions">
+															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
+															<div class="card-img-top position-absolute text-right slct-media d-none">
+																<i class="icon-checkbox-checked"></i>
+															</div>
+														</div>
+											    	</div>
+												</a>
+											</div>
+											<div class="col-sm-3">
+												<a href="#">
+													<div class="card media-lib-img">
+														<div class="card-img-actions">
+															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
+															<div class="card-img-top position-absolute text-right slct-media d-none">
+																<i class="icon-checkbox-checked"></i>
+															</div>
+														</div>
+											    	</div>
+												</a>
+											</div>
+											<div class="col-sm-3">
+												<a href="#">
+													<div class="card media-lib-img">
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
