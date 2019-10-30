@@ -26,6 +26,7 @@
 	<!-- Theme JS files -->
 	<!-- script for form -->
 	<script src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script src="assets/js/demo_pages/form_inputs.js"></script>
 	<script src="assets/js/demo_pages/login.js"></script>
 	<!-- /script for form -->
 	<!-- range slider -->
@@ -40,6 +41,10 @@
 	<script src="assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
 	<script src="assets/js/demo_pages/uploader_bootstrap.js"></script>
 	<!-- /upload Image -->
+	<!-- multiselect form dropdown-->
+	<script src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script src="assets/js/demo_pages/form_multiselect.js"></script>
+	<!-- /multiselect form dropdown-->
 	<script src="assets/js/app.js"></script>
 	<!-- /theme JS files -->
 
@@ -47,18 +52,18 @@
 
 <body>
 	<!-- Main navbar -->
-	<div class="navbar navbar-expand-md navbar-dark black-bg">
+	<div class="navbar navbar-expand-xl navbar-light py-2">
 		<div class="navbar-brand mr-0">
 			<a href="#" class="d-inline-block">
 				<img src="assets/images/logo.png" alt="">
 			</a>
 		</div>
 
-		<div class="d-md-none">
+		<div class="d-xl-none">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
 				<i class="icon-grid"></i>
 			</button>
-			<button class="navbar-toggler sidebar-mobile-main-toggle" type="button">
+			<button class="navbar-toggler sidebar-mobile-main-toggle sidebar-control sidebar-main-toggle" type="button">
 				<i class="icon-paragraph-justify3"></i>
 			</button>
 		</div>
@@ -66,7 +71,7 @@
 		<div class="collapse navbar-collapse" id="navbar-mobile">
 			<ul class="navbar-nav mr-md-auto">
 				<li class="nav-item">
-					<a href="#" class="navbar-nav-link sidebar-control sidebar-main-toggle d-none d-md-block">
+					<a href="#" class="navbar-nav-link sidebar-control sidebar-main-toggle d-none d-xl-block">
 						<i class="icon-paragraph-justify3"></i>
 					</a>
 				</li>
@@ -75,11 +80,35 @@
 			<!-- <span class="badge bg-success ml-md-3 mr-md-auto">Online</span> -->
 
 			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+						<span><i class="icon-location4"></i> Kolkata</span>
+					</a>
+
+					<div class="dropdown-menu dropdown-menu-right navbar-dropdown">
+						<form action="#" class="dropdown-item pb-0 search-from">
+							<div class="form-group form-group-feedback form-group-feedback-left mb-0 w-100">
+								<input type="text" class="form-control uname" placeholder="Search Location">
+								<div class="form-control-feedback">
+									<i class="icon-search4 text-muted"></i>
+								</div>
+								<a href="#" class="dropdown-item text-primary color-blue detect-btn"><i class="icon-target2"></i> Detect Location</a>
+							</div>
+						</form>
+						<div class="dropdown-header font-weight-bold py-1 text-default font-size-xs line-height-xs">Search Results</div>
+						<div class="card-body pt-0 pb-0">
+							<p class="mb-0">Location1</p>
+							<p class="mb-0">Location2</p>
+							<p class="mb-0">Location3</p>
+							<p class="mb-0">Location4</p>
+						</div>
+					</div>
+				</li>
 				<li class="nav-item"><a href="#" class="navbar-nav-link">Home</a></li>
 				<li class="nav-item"><a href="#" class="navbar-nav-link">Services</a></li>
 				<li class="nav-item"><a href="#" class="navbar-nav-link">About Us</a></li>
 				<li class="nav-item"><a href="#" class="navbar-nav-link">Contact Us</a></li>
-
+				<!-- add d-none class for Hide or d-block for Show -->
 				<li class="nav-item dropdown dropdown-user">
 					<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
 						<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
@@ -99,6 +128,8 @@
 						<a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
 					</div>
 				</li>
+				<li class="nav-item"><a href="#" class="navbar-nav-link">Sign up</a></li>
+				<li class="nav-item"><a href="#" class="navbar-nav-link">Log in</a></li>
 			</ul>
 		</div>
 	</div>
