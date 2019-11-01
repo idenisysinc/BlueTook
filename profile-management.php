@@ -51,7 +51,16 @@
 									<div class="form-group row">
 										<label class="col-form-label col-lg-3">Profile Image</label>
 										<div class="col-lg-9">
-											<input type="file" class="form-control-uniform" data-fouc>
+											<div class="card-img-actions d-inline-block">
+												<img class="img-fluid rounded-circle" src="assets/images/placeholders/placeholder.jpg" width="50" height="50" alt="">
+												<div class="card-img-actions-overlay card-img rounded-circle">
+													<a href="" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" title="Profile" onclick="document.getElementById('ImageFileInput').click();">
+														<i class="icon-link"></i>
+														<input id="ImageFileInput" type="file" name="name" class="sr-only" />
+													</a>
+												</div>
+											</div>
+											<!-- <input type="file" class="form-control-uniform" data-fouc> -->
 										</div>
 									</div>
 									<div class="form-group row">
@@ -152,7 +161,7 @@
 									<div class="form-group row">
 										<label class="col-form-label col-lg-3" required>Category <span class="text-danger">*</span></label>
 										<div class="col-lg-9">
-											<select class="form-control multiselect-max-height" multiple="multiple" data-fouc required>
+											<!-- <select class="form-control multiselect-max-height" multiple="multiple" data-fouc required>
 												<optgroup label="Photographers">
 													<option value="Wedding">Wedding  Events and Gatherings </option>
 													<option value="Kids">Kids and Family </option>
@@ -175,7 +184,129 @@
 													<option value="Female">Female</option>
 													<option value="Kids2">Kids</option>
 												</optgroup>
-											</select>
+											</select> -->
+											<!-- Photographers -->
+											<div class="form-check">
+												<label class="form-check-label">
+													<input type="checkbox" id="more1" class="form-input-styled" data-fouc value="Photographers">
+													Photographers
+												</label>
+											</div>
+											<div id="moreField1" class="pl-3">
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Wedding  Events and Gatherings
+													</label>
+												</div>
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Kids and Family
+													</label>
+												</div>
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Maternity
+													</label>
+												</div>
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Product
+													</label>
+												</div>
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Fashion
+													</label>
+												</div>
+											</div>
+											<!-- /Photographers -->
+											<!-- Vediographers -->
+											<div class="form-check">
+												<label class="form-check-label">
+													<input type="checkbox" id="more2" class="form-input-styled" data-fouc value="Photographers">
+													Vediographers
+												</label>
+											</div>
+											<div id="moreField2" class="pl-3">
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														General
+													</label>
+												</div>
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Drone
+													</label>
+												</div>
+											</div>
+											<!-- /Vediographers -->
+											<!-- Editors -->
+											<div class="form-check">
+												<label class="form-check-label">
+													<input type="checkbox" id="more3" class="form-input-styled" data-fouc value="Photographers">
+													Editors
+												</label>
+											</div>
+											<div id="moreField3" class="pl-3">
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														General
+													</label>
+												</div>
+											</div>
+											<!-- /Editors -->
+											<!-- Makeup Artists -->
+											<div class="form-check">
+												<label class="form-check-label">
+													<input type="checkbox" id="more4" class="form-input-styled" data-fouc value="Photographers">
+													Makeup Artists
+												</label>
+											</div>
+											<div id="moreField4" class="pl-3">
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														General
+													</label>
+												</div>
+											</div>
+											<!-- /Makeup Artists -->
+											<!-- Models -->
+											<div class="form-check">
+												<label class="form-check-label">
+													<input type="checkbox" id="more5" class="form-input-styled" data-fouc value="Photographers">
+													Models
+												</label>
+											</div>
+											<div id="moreField5" class="pl-3">
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Male
+													</label>
+												</div>
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Female
+													</label>
+												</div>
+												<div class="form-check">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-input-styled" data-fouc>
+														Kids
+													</label>
+												</div>
+											</div>
+											<!-- /Models -->
 										</div>
 									</div>
 									<!-- /dropdown with max height -->
@@ -223,6 +354,35 @@
 
 	</div>
 	<!-- /page content -->
-
+	<!-- <script>
+		function checkToggle() {
+		  var checkBox = document.getElementByClass("more");
+		  var text = document.getElementByClass("moreField");
+		  if (checkBox.checked == true){
+		    text.style.display = "block";
+		  } else {
+		     text.style.display = "none";
+		  }
+		}
+	</script> -->
+	<script>
+		$(document).ready(function(){
+		    $('#more1').click(function(){
+		        $("#moreField1").slideToggle();
+		    });
+		    $('#more2').click(function(){
+		        $("#moreField2").slideToggle();
+		    });
+		    $('#more3').click(function(){
+		        $("#moreField3").slideToggle();
+		    });
+		    $('#more4').click(function(){
+		        $("#moreField4").slideToggle();
+		    });
+		    $('#more5').click(function(){
+		        $("#moreField5").slideToggle();
+		    });
+		});
+	</script>
 </body>
 </html>

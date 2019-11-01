@@ -277,6 +277,9 @@
 .w-60{
 	width: 60%;
 }
+#moreField1,#moreField2,#moreField3,#moreField4,#moreField5{
+	display: none;
+}
 /*------- Media Query --------*/
 @media(max-width: 991px){
 	.left-border{
