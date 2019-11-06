@@ -332,12 +332,18 @@
 													<input type="text" class="form-control" placeholder="Rate">
 												</div>
 												<div class="col-lg-2">
-													<select data-placeholder="Rate Type" class="form-control select" data-fouc>
+													<!-- <select data-placeholder="Rate Type" class="form-control select" data-fouc>
 														<option></option>
 														<option value="AL">Per Hour</option>
 														<option value="IA">Per Day</option>
 														<option value="IA">Others</option>
-													</select>
+													</select> -->
+													<select class="form-control rate-type">
+						                                <option value="" disabled selected>Rate Type</option>
+						                                <option value="opt2">Per Hour</option>
+						                                <option value="opt3">Per Day</option>
+						                                <option value="opt4">Others</option>
+					                            </select>
 												</div>
 												<div class="col-lg-3">
 													<input type="text" class="form-control" placeholder="Note">
