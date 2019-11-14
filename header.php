@@ -80,7 +80,7 @@
 			<!-- <span class="badge bg-success ml-md-3 mr-md-auto">Online</span> -->
 
 			<ul class="navbar-nav">
-				<li class="nav-item dropdown">
+				<!-- <li class="nav-item dropdown">
 					<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
 						<span><i class="icon-location4"></i> Kolkata</span>
 					</a>
@@ -103,7 +103,7 @@
 							<p class="mb-0">Location4</p>
 						</div>
 					</div>
-				</li>
+				</li> -->
 				<li class="nav-item"><a href="#" class="navbar-nav-link">Home</a></li>
 				<li class="nav-item"><a href="#" class="navbar-nav-link">Services</a></li>
 				<li class="nav-item"><a href="#" class="navbar-nav-link">About Us</a></li>

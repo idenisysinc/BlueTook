@@ -343,7 +343,7 @@
 						                                <option value="opt2">Per Hour</option>
 						                                <option value="opt3">Per Day</option>
 						                                <option value="opt4">Others</option>
-					                            </select>
+					                            	</select>
 												</div>
 												<div class="col-lg-3">
 													<input type="text" class="form-control" placeholder="Note">
@@ -435,7 +435,9 @@
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media">
-																<i class="icon-checkbox-checked"></i>
+																<div class="form-check">
+																	<input type="checkbox" class="form-input-styled" checked data-fouc>
+																</div>
 															</div>
 														</div>
 											    	</div>
@@ -447,7 +449,9 @@
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
-																<i class="icon-checkbox-checked"></i>
+																<div class="form-check">
+																	<input type="checkbox" class="form-input-styled" data-fouc>
+																</div>
 															</div>
 														</div>
 											    	</div>
@@ -459,7 +463,9 @@
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
-																<i class="icon-checkbox-checked"></i>
+																<div class="form-check">
+																	<input type="checkbox" class="form-input-styled" data-fouc>
+																</div>
 															</div>
 														</div>
 											    	</div>
@@ -471,7 +477,9 @@
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
-																<i class="icon-checkbox-checked"></i>
+																<div class="form-check">
+																	<input type="checkbox" class="form-input-styled" data-fouc>
+																</div>
 															</div>
 														</div>
 											    	</div>
@@ -485,7 +493,9 @@
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media">
-																<i class="icon-checkbox-checked"></i>
+																<div class="form-check">
+																	<input type="checkbox" class="form-input-styled" data-fouc>
+																</div>
 															</div>
 														</div>
 											    	</div>
@@ -497,7 +507,9 @@
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
-																<i class="icon-checkbox-checked"></i>
+																<div class="form-check">
+																	<input type="checkbox" class="form-input-styled" data-fouc>
+																</div>
 															</div>
 														</div>
 											    	</div>
@@ -509,7 +521,9 @@
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
-																<i class="icon-checkbox-checked"></i>
+																<div class="form-check">
+																	<input type="checkbox" class="form-input-styled" data-fouc>
+																</div>
 															</div>
 														</div>
 											    	</div>
@@ -521,7 +535,9 @@
 														<div class="card-img-actions">
 															<img class="card-img-top img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 															<div class="card-img-top position-absolute text-right slct-media d-none">
-																<i class="icon-checkbox-checked"></i>
+																<div class="form-check">
+																	<input type="checkbox" class="form-input-styled" data-fouc>
+																</div>
 															</div>
 														</div>
 											    	</div>
@@ -532,8 +548,8 @@
 									</div>
 								</div>
 								<!-- media description -->
-								<div class="col-lg-4 left-border top-border">
-									<div class="card-body">
+								<div class="col-lg-4">
+									<div class="card-body gry-color-lgt">
 										<div class="row">
 											<div class="col-sm-12">
 												<h5 class="text-uppercase">Attachment Details</h5>
@@ -546,7 +562,7 @@
 												<p class="mb-0 text-muted">October 12 2019</p>
 												<p class="mb-0 text-muted">223kb</p>
 												<p class="mb-0 text-muted">800 x 1100</p>
-												<a href="#" class="text-danger-800">Delete Permanently</a>
+												<button type="button" class="btn bg-danger-800 danger-btn mt-1"><i class="icon-bin mr-1"></i> Delete</button>
 											</div>
 											<div class="col-sm-12">
 												<div class="dropdown-divider mt-4 mb-4"></div>
