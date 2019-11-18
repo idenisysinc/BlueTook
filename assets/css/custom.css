@@ -353,6 +353,159 @@
 .danger-btn{
 	background-color: #c62828!important;
 }
+.profile-public{
+	background-image: url('../../assets/images/public-profile-cover.jpg'),
+	linear-gradient(white, black);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 350px;
+	position: relative;
+}
+.profile-public .bg-img-overlay{
+	position: absolute;
+	left: 0;
+	right:0;
+	top: 0;
+	bottom: 0;
+	background-image: linear-gradient(transparent, black);
+}
+.pro-img-border{
+	border: 5px solid #fff;
+	border-radius: 50%;
+}
+.radius-10{
+	border-radius: 10px;
+}
+.link-color{
+	color: #0784bf;
+	font-weight: 500;
+}
+.blue-cover{
+ 	background: #0784bf;
+}
+.text-lgt-blue{
+	color: #a5d2e8;
+}
+.text-dp-blue{
+	color: #0784bf!important;
+}
+.profile-public-ctn{
+	margin-top: -150px;
+}
+/*-------- The Modal (background) -----------*/
+.modal-cust, #viewDetailsModal, #videoDetailsModal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content-cust {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 5px;
+  position: relative;
+}
+
+/* The Close Button */
+.close-cust, .close-view-details ,.close-video {
+    color: #eae9e9;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    background: #303030;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.close-cust:hover, .close-cust:focus, .close-video:hover, .close-video:focus,
+.close-view-details:hover, .close-view-details:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.viewDetailsContent{
+	width: 40%;
+}
+.viewDetailsContent .text-content{
+	max-height: 312px;
+    overflow: auto;
+}
+/*-------- /The Modal (background) -----------*/
+.custom-box-shadow{
+	-webkit-box-shadow: 2px 1px 18px 0px rgba(0, 0, 0, 0.14);
+	-moz-box-shadow: 2px 1px 18px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 2px 1px 18px 0px rgba(0, 0, 0, 0.14);
+    border: 0;
+}
+.font-size-25{
+	font-size: 25px;
+}
+.link-btn{
+	border:0;
+	background: none;
+	font-weight: 500;
+	padding: 0;
+	font-size: 14px;
+}
+.link-btn:hover{
+	color: #0784bf;
+}
+.link-btn:focus{
+	outline: 0;
+}
+.book-now-btn, .chat-now-btn{
+	width: 49%;
+}
+.book-now-btn{
+	margin-right: 2%;
+}
+.gradi-btn{
+  	background-color: #1e6fe8; /* For browsers that do not support gradients */
+    background-image: -webkit-linear-gradient(left, #1e6fe8, #a407fe);
+    background-image: -o-linear-gradient(left, #1e6fe8, #a407fe);
+    background-image: linear-gradient(to right, #1e6fe8, #a407fe); /* Standard syntax (must be last) */
+    border: 0;
+    padding: 8px 10px;
+}
+.gradi-btn:hover{
+	background: #1e6fe8;
+}
+.tab-filter{
+	background: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	transition: all .15s ease-in-out;
+	display: inline-block;
+}
+.tab-filter:last-child{
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.tab-filter:hover, .tab-filter.active{
+	background: #1686bd;
+	color: #fff;
+	border: 1px solid #1686bd;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -394,6 +547,12 @@
 	.full-width-mob{
 		width: 100%!important;
 	}
+	.viewDetailsContent{
+	width: 80%;
+	}
+	.tab-dark-text{
+		color: #333;
+	}
 }
 @media(max-width: 767px){
 	.sm-mob-mb{
@@ -401,5 +560,11 @@
 	}
 	.step-section{
 		width: 100%;
+	}
+	.mob-dark-text{
+		color: #333;
+	}
+	.mob-text-center{
+		text-align: center;
 	}
 }
