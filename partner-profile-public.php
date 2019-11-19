@@ -10,6 +10,7 @@
 		<div class="content-wrapper">
 			<div class="profile-public">
 				<div class="bg-img-overlay"></div>
+				<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 			</div>
 			<!-- Content area -->
 			<div class="content profile-public-ctn">

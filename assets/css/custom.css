@@ -354,13 +354,17 @@
 	background-color: #c62828!important;
 }
 .profile-public{
-	background-image: url('../../assets/images/public-profile-cover.jpg'),
+	position: relative;
+}
+.profile-public img{
+	/*background-image: url('../../assets/images/public-profile-cover.jpg'),
 	linear-gradient(white, black);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-	min-height: 350px;
-	position: relative;
+	background-position: center;*/
+	object-fit: cover;
+	height: 350px;
+	width: 100%;
 }
 .profile-public .bg-img-overlay{
 	position: absolute;
