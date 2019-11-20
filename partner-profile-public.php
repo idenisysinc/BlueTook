@@ -46,7 +46,168 @@
 							<h4 class="tab-dark-text">Rs. 12000</h4>
 							<button type="button" id="viewDetailsBtn" class="btn btn-light d-block w-100 text-dp-blue">View Details <i class="icon-arrow-right7 ml-1"></i></button>
 							<div class="mt-4">
-								<button type="button" class="btn btn-primary book-now-btn gradi-btn">Book Now <i class="icon-camera ml-1"></i></button><button type="button" class="btn btn-primary chat-now-btn gradi-btn">Chat Now <i class="icon-bubbles2 ml-1"></i></button>
+								<button type="button" id="bookNowBtn" class="btn btn-primary book-now-btn gradi-btn">Book Now <i class="icon-camera ml-1"></i></button><button type="button" class="btn btn-primary chat-now-btn gradi-btn dropdown" data-toggle="dropdown">Chat Now <i class="icon-bubbles2 ml-1"></i></button>
+								<!-- chat now dropdown -->
+								<div class="dropdown-menu dropdown-menu-right chat-body">
+									<div class="card-body">
+										<ul class="media-list mb-3">
+											<li class="media content-divider justify-content-center text-muted mx-0">Monday, Feb 10</li>
+
+											<li class="media">
+												<div class="mr-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+
+												<div class="media-body">
+													<div class="media-chat-item">Below mounted advantageous spread yikes bat stubbornly crud a and a excepting</div>
+													<div class="font-size-sm text-muted mt-2">Mon, 9:54 am <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+											</li>
+
+											<li class="media media-chat-item-reverse">
+												<div class="media-body">
+													<div class="media-chat-item">Far squid and that hello fidgeted and when. As this oh darn but slapped casually husky sheared that cardinal hugely one and some unnecessary factiously hedgehog a feeling one rudely much but one owing sympathetic regardless more astonishing evasive tasteful much.</div>
+													<div class="font-size-sm text-muted mt-2">Mon, 10:24 am <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+
+												<div class="ml-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+											</li>
+
+											<li class="media">
+												<div class="mr-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+
+												<div class="media-body">
+													<div class="media-chat-item">Darn over sour then cynically less roadrunner up some cast buoyant. Macaw krill when and upon less contrary warthog jeez some koala less since therefore minimal.</div>
+													<div class="font-size-sm text-muted mt-2">Mon, 10:56 am <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+											</li>
+
+											<li class="media media-chat-item-reverse">
+												<div class="media-body">
+													<div class="media-chat-item">Some upset impious a and submissive when far crane the belched coquettishly. More the puerile dove wherever</div>
+													<div class="font-size-sm text-muted mt-2">Mon, 11:29 am <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+
+												<div class="ml-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+											</li>
+
+											<li class="media content-divider justify-content-center text-muted mx-0">Yesterday</li>
+
+											<li class="media">
+												<div class="mr-3">
+													<a href="assets/images/placeholders/placeholder.jpg">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+
+												<div class="media-body">
+													<div class="media-chat-item">Regardless equitably hello heron glum cassowary jocosely before reliably a jeepers wholehearted shuddered more that some where far by koala.</div>
+													<div class="font-size-sm text-muted mt-2">Tue, 6:40 am <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+											</li>
+
+											<li class="media">
+												<div class="mr-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+
+												<div class="media-body">
+													<div class="media-chat-item">Crud reran and while much withdrew ardent much crab hugely met dizzily that more jeez gent equivalent unsafely far one hesitant so therefore.</div>
+													<div class="font-size-sm text-muted mt-2">Tue, 10:28 am <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+											</li>
+
+											<li class="media media-chat-item-reverse">
+												<div class="media-body">
+													<div class="media-chat-item">Thus superb the tapir the wallaby blank frog execrably much since dalmatian by in hot. Uninspiringly arose mounted stared one curt safe</div>
+													<div class="font-size-sm text-muted mt-2">Tue, 8:12 am <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+
+												<div class="ml-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+											</li>
+
+											<li class="media content-divider justify-content-center text-muted mx-0">Today</li>
+
+											<li class="media">
+												<div class="mr-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+
+												<div class="media-body">
+													<div class="media-chat-item">Tolerantly some understood this stubbornly after snarlingly frog far added insect into snorted more auspiciously heedless drunkenly jeez foolhardy oh.</div>
+													<div class="font-size-sm text-muted mt-2">Wed, 4:20 pm <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+											</li>
+
+											<li class="media media-chat-item-reverse">
+												<div class="media-body">
+													<div class="media-chat-item">Satisfactorily strenuously while sleazily dear frustratingly insect menially some shook far sardonic badger telepathic much jeepers immature much hey.</div>
+													<div class="font-size-sm text-muted mt-2">2 hours ago <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+
+												<div class="ml-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+											</li>
+
+											<li class="media">
+												<div class="mr-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+
+												<div class="media-body">
+													<div class="media-chat-item">Grunted smirked and grew less but rewound much despite and impressive via alongside out and gosh easy manatee dear ineffective yikes.</div>
+													<div class="font-size-sm text-muted mt-2">13 minutes ago <a href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a></div>
+												</div>
+											</li>
+
+											<li class="media media-chat-item-reverse">
+												<div class="media-body">
+													<div class="media-chat-item"><i class="icon-menu"></i></div>
+												</div>
+
+												<div class="ml-3">
+													<a href="#">
+														<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="40" height="40" alt="">
+													</a>
+												</div>
+											</li>
+										</ul>
+
+				                    	<textarea name="enter-message" class="form-control mb-3" rows="3" cols="1" placeholder="Enter your message..."></textarea>
+
+				                    	<div class="d-flex align-items-center">	     
+				                    		<button type="button" class="btn bg-teal-400 btn-labeled btn-labeled-right ml-auto"><b><i class="icon-paperplane"></i></b> Send</button>
+				                    	</div>
+									</div>
+								</div>
+								<!-- /chat now dropdown -->
 							</div>
 						</div>
 					</div>
@@ -268,6 +429,81 @@
 		</div>
 	</div>
 	<!-- Video Modal -->
+	<!-- Book Now Modal -->
+	<div>
+		<!-- The Modal -->
+		<div id="bookNowModal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content-cust book-now-Content">
+		    <span class="close-book-now">&times;</span>
+		    <div class="p-3 text-content">
+		    	<div class="row">
+		    		<div class="col-sm-12">
+		    			<form action="#">
+		    				<div class="form-group">
+								<label class="d-block"><strong>Email</strong></label>
+								<input type="email" class="form-control" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label class="d-block"><strong>Phone Number</strong></label>
+								<input type="text" class="form-control" placeholder="Phone Number">
+							</div>
+							<div class="form-group">
+								<label class="d-block"><strong>Category</strong></label>
+								<select class="form-control">
+	                                <option value="" disabled selected>Category</option>
+	                                <option value="opt2">Category One</option>
+	                                <option value="opt3">Category Two</option>
+	                                <option value="opt4">Category Three</option>
+	                        	</select>
+							</div>
+							<div class="form-group">
+								<label class="d-block"><strong>Sub-Category</strong></label>
+								<select class="form-control">
+	                                <option value="" disabled selected>Sub-Category</option>
+	                                <option value="opt2">Sub-Category One</option>
+	                                <option value="opt3">Sub-Category Two</option>
+	                                <option value="opt4">Sub-Category Three</option>
+	                        	</select>
+							</div>
+							<div class="form-group">
+								<label class="d-block"><strong>City</strong></label>
+								<select class="form-control">
+	                                <option value="" disabled selected>City</option>
+	                                <option value="opt2">City One</option>
+	                                <option value="opt3">City Two</option>
+	                                <option value="opt4">City Three</option>
+	                        	</select>
+							</div>
+							<div class="form-group">
+								<label class="d-block"><strong>Date</strong></label>
+								<input type="date" class="form-control" placeholder="Date">
+							</div>
+							<div class="form-group">
+								<label class="d-block"><strong>Time</strong></label>
+								<input type="time" class="form-control" placeholder="Time">
+							</div>
+							<div class="form-group">
+								<label class="d-block"><strong>Budget in Rs.</strong></label>
+								<input type="text" class="form-control" placeholder="Budget in Rs.">
+							</div>
+							<div class="form-group">
+								<label class="d-block"><strong>Description</strong></label>
+								<textarea rows="5" cols="5" class="form-control" placeholder="Enter your message here"></textarea>
+							</div>
+							<div class="card-footer px-0">
+								<button type="button" class="btn bg-grey">Submit <i class="icon-circle-right2 ml-2"></i> </button>
+							</div>
+		    			</form>
+					</div>
+		    	</div>
+		    </div>
+		  </div>
+
+		</div>
+	</div>
+	<!-- Book Now Modal -->
 	<!-- script for achievements, reviews, projects -->
 	<script>
 		var modals = document.getElementsByClassName('modal-cust');
@@ -285,17 +521,20 @@
 		    }
 		}
 	</script>
-	<!-- script for view details -->
+	<!-- script for view details, video details, Book now -->
 	<script>
 		// Get the modal
 		var modal_1 = document.getElementById("viewDetailsModal");
 		var modal_2 = document.getElementById("videoDetailsModal");
+		var modal_3 = document.getElementById("bookNowModal");
 		// Get the button that opens the modal
 		var btn_1 = document.getElementById("viewDetailsBtn");
 		var btn_2 = document.getElementById("videoDetailsBtn");
+		var btn_3 = document.getElementById("bookNowBtn");
 		// Get the <span> element that closes the modal
 		var span_1 = document.getElementsByClassName("close-view-details")[0];
 		var span_2 = document.getElementsByClassName("close-video")[0];
+		var span_3 = document.getElementsByClassName("close-book-now")[0];
 
 		// When the user clicks the button, open the modal 
 		btn_1.onclick = function() {
@@ -304,7 +543,9 @@
 		btn_2.onclick = function() {
 		  modal_2.style.display = "block";
 		}
-
+		btn_3.onclick = function() {
+		  modal_3.style.display = "block";
+		}
 		// When the user clicks on <span> (x), close the modal
 		span_1.onclick = function() {
 		  modal_1.style.display = "none";
@@ -312,7 +553,9 @@
 		span_2.onclick = function() {
 		  modal_2.style.display = "none";
 		}
-
+		span_3.onclick = function() {
+		  modal_3.style.display = "none";
+		}
 		// When the user clicks anywhere outside of the modal, close it
 		window.onclick = function(event_1) {
 		  if (event_1.target == modal_1) {
@@ -322,6 +565,11 @@
 		window.onclick = function(event_2) {
 		  if (event_2.target == modal_2) {
 		    modal_2.style.display = "none";
+		  }
+		}
+		window.onclick = function(event_3) {
+		  if (event_3.target == modal_3) {
+		    modal_3.style.display = "none";
 		  }
 		}
 		</script>

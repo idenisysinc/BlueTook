@@ -398,7 +398,7 @@
 	margin-top: -150px;
 }
 /*-------- The Modal (background) -----------*/
-.modal-cust, #viewDetailsModal, #videoDetailsModal{
+.modal-cust, #viewDetailsModal, #videoDetailsModal, #bookNowModal{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -421,7 +421,7 @@
 }
 
 /* The Close Button */
-.close-cust, .close-view-details ,.close-video {
+.close-cust, .close-view-details ,.close-video, .close-book-now {
     color: #eae9e9;
     float: right;
     font-size: 21px;
@@ -438,15 +438,16 @@
 }
 
 .close-cust:hover, .close-cust:focus, .close-video:hover, .close-video:focus,
-.close-view-details:hover, .close-view-details:focus {
+.close-view-details:hover, .close-view-details:focus, .close-book-now:hover, 
+.close-book-now:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-.viewDetailsContent{
+.viewDetailsContent, .book-now-Content{
 	width: 40%;
 }
-.viewDetailsContent .text-content{
+.viewDetailsContent .text-content, .book-now-Content .text-content{
 	max-height: 312px;
     overflow: auto;
 }
@@ -510,6 +511,16 @@
 	color: #fff;
 	border: 1px solid #1686bd;
 }
+.chat-body{
+	margin: 6px 0;
+	width: 500px;
+	max-width: 100%;
+    max-height: 350px;
+    overflow: auto;
+}
+.chat-body .media-chat{
+	max-height: 140px;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -551,7 +562,7 @@
 	.full-width-mob{
 		width: 100%!important;
 	}
-	.viewDetailsContent{
+	.viewDetailsContent, .book-now-Content{
 	width: 80%;
 	}
 	.tab-dark-text{
