@@ -643,6 +643,12 @@
 .font-25{
 	font-size: 25px;
 }
+.font-18{
+	font-size: 18px;
+}
+.font-16{
+	font-size: 16px;
+}
 .blk-lgt-color{
 	color: #4b4b4b;
 }
@@ -659,6 +665,7 @@
 	padding: 5px 15px;
 	border-radius: 2px;
 	text-align: center;
+	font-size: 12px;
 }
 .extra-lgt-gry-bg{
 	background-color: #f0f0f0;
@@ -672,6 +679,9 @@
 }
 .price-rate-btn button:last-child{
 	margin-right: 0;
+}
+.price-dtls{
+	line-height: 1.1em;
 }
 .img-gry-border{
 	border: 4px solid #d6d6d6;
@@ -751,11 +761,17 @@
 .filter-sidebar .filter-body .btn:hover{
 	background-color: #50565d;
 }
+.filter-icon{
+	position: relative;
+	top: 2px;
+}
 /*----- /Filter sidebar ------*/
 .full-radius5{
 	border-radius: 5px;
 }
-
+.xsml-mb{
+	margin-bottom: 5px;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
