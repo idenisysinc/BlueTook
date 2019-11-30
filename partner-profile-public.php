@@ -13,9 +13,9 @@
 				<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 			</div>
 			<!-- Content area -->
-			<div class="content profile-public-ctn">
+			<div class="content profile-public-ctn w-90 ml-auto mr-auto">
 				<div class="row">
-					<div class="col-lg-9">
+					<div class="col-lg-8">
 						<div>
 							<div class="card-body mob-text-center">
 								<div class="card-img-actions d-inline-block mb-3 pro-img-border float-md-left mr-md-4">
@@ -40,13 +40,13 @@
 					    	</div>
 				    	</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-4">
 						<div class="px-4 text-white">
 							<p class="text-lgt-blue mb-0 mt-3 tab-dark-text">Starting From</p>
 							<h4 class="tab-dark-text">Rs. 12000</h4>
 							<button type="button" id="viewDetailsBtn" class="btn btn-light d-block w-100 text-dp-blue">View Details <i class="icon-arrow-right7 ml-1"></i></button>
 							<div class="mt-4">
-								<button type="button" id="bookNowBtn" class="btn btn-primary book-now-btn gradi-btn">Book Now <i class="icon-camera ml-1"></i></button><button type="button" class="btn btn-primary chat-now-btn gradi-btn dropdown" data-toggle="dropdown">Chat Now <i class="icon-bubbles2 ml-1"></i></button>
+								<button type="button" id="bookNowBtn" class="btn btn-primary book-now-btn gradi-btn"><i class="icon-camera mr-1"></i>Book Now</button><button type="button" class="btn btn-primary chat-now-btn gradi-btn dropdown" data-toggle="dropdown"><i class="icon-bubbles2 mr-1"></i> Chat Now</button>
 								<!-- chat now dropdown -->
 								<div class="dropdown-menu dropdown-menu-right chat-body">
 									<div class="card-body">
@@ -216,7 +216,7 @@
 			</div>
 			<!-- /Content area -->
 			<!-- Content area -->
-			<div class="content">
+			<div class="content w-90 m-auto">
 				<div class="card radius-10 custom-box-shadow bg-light">
 					<div class="row py-4 px-md-4">
 						<div class="col-sm-6">
@@ -348,7 +348,9 @@
 			</div>
 			<!-- /content area -->
 
-
+			<!-- Sub Footer -->
+			<?php include('sub-footer.php') ?>
+			<!-- / Subfooter -->
 			<!-- Footer -->
 			<?php include('footer.php') ?>
 			<!-- /footer -->

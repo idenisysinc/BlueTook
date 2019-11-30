@@ -395,6 +395,7 @@
 	right:0;
 	top: 0;
 	bottom: 0;
+	background-color: #00000066;
 	background-image: linear-gradient(transparent, black);
 }
 .pro-img-border{
@@ -772,6 +773,30 @@
 .xsml-mb{
 	margin-bottom: 5px;
 }
+/*------- Masonry Gallery --------*/
+.masonry { 
+/* Masonry container */
+  	column-count: 3;
+  	column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+	background-color: #eee;
+	display: inline-block;
+	margin: 0 0 1em;
+	width: 100%;
+	position: relative;
+}
+.masonry .item .img-overlay{
+	position: absolute;
+	left: 0;
+	right:0;
+	top: 0;
+	bottom: 0;
+    background-color: #00000066;
+	background-image: linear-gradient(transparent, black);
+}
+/*------ /Masonry Gallery ---------*/
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -819,6 +844,10 @@
 	.tab-dark-text{
 		color: #333;
 	}
+	.masonry { 
+	/* Masonry container */
+	  column-count: 2;
+	}
 }
 @media(max-width: 767px){
 	.sm-mob-mb{
@@ -836,14 +865,21 @@
 	.mob-w-100{
 		width: 100%;
 	}
+	.masonry { 
+	/* Masonry container */
+	  column-count: 1;
+	}
 }
 @media(max-width: 375px){
-	.price-rate-btn button{
+	.price-rate-btn button, .book-now-btn, .chat-now-btn{
 		width: 100%;
 		margin-right: 0;
 	}
 	.price-rate-btn .v-details-btn{
 		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.book-now-btn{
 		margin-bottom: 10px;
 	}
 }
