@@ -5,7 +5,7 @@
 	height: 1.5rem;
 }
 .grey-bg{
-	background-color: #1b1b1b;
+	background-color: #1b1b1b!important;
 }
 .sidebar-dark .nav-sidebar>.nav-item-open>.nav-link:not(.disabled), 
 .sidebar-dark .nav-sidebar>.nav-item>.nav-link.active, 
@@ -950,6 +950,39 @@
 .mb-100{
 	margin-bottom: 100px;
 }
+.cross-media{
+	background: #000;
+    border-radius: 50%;
+    top: -11px;
+    right: -10px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.cross-media a{
+	color: #ffffff;
+    padding: 1px;
+    line-height: 21px;
+}
+.cross-media a .icon-cross3{
+	font-size: 19px;
+}
+.cross-media:hover{
+	opacity: 0.9;
+}
+.cust-divider{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.card-group-control .card-title>a.collapsed:before{
+	content: "\e9c5";
+}
+.card-group-control-right .card-title>a:before{
+	content: "\e9c6";
+}
+.ui-sortable-handle:hover{
+	cursor: move;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -1038,6 +1071,12 @@
 	}
 	.cover-bg-div .social-media .logo{
 		width: 50%;
+	}
+	.prev-draft-publish-div{
+		padding: 0 1.25rem;
+	}
+	.prev-draft-publish-div button{
+		margin-bottom: 10px;
 	}
 }
 @media(max-width: 375px){
