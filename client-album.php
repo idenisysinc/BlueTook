@@ -71,7 +71,7 @@
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
@@ -79,7 +79,7 @@
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-4.jpg" alt="BG Image" class="img-fluid">
 							</div>
@@ -87,77 +87,77 @@
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-4.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-4.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/landscape-2.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/landscape-2.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/landscape-2.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/landscape-3.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/landscape-3.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/landscape-3.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-1.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-1.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-1.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-2.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-2.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-2.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-3.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-3.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-3.jpg" alt="BG Image" class="img-fluid">
 							</div>
@@ -166,21 +166,18 @@
 				</div>
 			</div>
 			<!-- /Content area -->
-			<div class="divider-bg-div position-relative mt-5" style="background-image: url(http://localhost/BlueTook/assets/images/divider-bg.jpg); background-repeat: no-repeat; background-size: cover">
-				<div class="bg-img-overlay"></div>
-				<div class="content w-90 m-auto">
-					<h2 class="text-uppercase text-white position-relative mb-0 text-center">Pre Wedding</h2>
-				</div>
+			<div class="content w-90 m-auto">
+				<h2 class="text-uppercase position-relative mb-0 text-center title-before title-after">Pre Wedding</h2>
 			</div>
 			<!-- Content area -->
 			<div class="content w-90 m-auto">
-				<div class="row mt-5 mb-100">
+				<div class="row mt-2 mb-100">
 					<div class="col-sm-12">
 						<div class="masonry">		
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
@@ -188,7 +185,7 @@
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-4.jpg" alt="BG Image" class="img-fluid">
 							</div>
@@ -196,77 +193,77 @@
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-4.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-4.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-4.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/landscape-2.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/landscape-2.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/landscape-2.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/public-profile-cover.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/public-profile-cover.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/public-profile-cover.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/landscape-3.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/landscape-3.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/landscape-3.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-1.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-1.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-1.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-2.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-2.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-2.jpg" alt="BG Image" class="img-fluid">
 							</div>
 							<div class="item">
 								<div class="img-overlay">
 									<p>Lorem Ipsum Dummy</p>
-									<span><a href="#" class="share-btn mr-2"><i class="icon-share3"></i></a><a href="assets/images/masonry/portrait-3.jpg" class="zoom-btn" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a></span>
+									<span><a href="assets/images/masonry/portrait-3.jpg" class="zoom-btn mr-2" data-popup="lightbox" rel="group"><i class="icon-zoomin3"></i></a><a href="#" class="share-btn"><i class="icon-share3"></i></a></span>
 								</div>
 								<img src="assets/images/masonry/portrait-3.jpg" alt="BG Image" class="img-fluid">
 							</div>

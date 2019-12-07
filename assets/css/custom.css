@@ -787,7 +787,7 @@
 	width: 100%;
 	position: relative;
 }
-.masonry .item .img-overlay{
+.masonry .item .img-overlay, .manage-img-wrapper .img-overlay{
 	opacity: 0;
 	position: absolute;
 	left: 0;
@@ -807,10 +807,14 @@
     padding: 10px;
     overflow: hidden;
 }
+.manage-img-wrapper .img-overlay{
+	z-index: 1;
+}
 .masonry .item .img-overlay p{
 	font-size: 14px;
 }
-.masonry .item .img-overlay .share-btn, .masonry .item .img-overlay .zoom-btn{
+.masonry .item .img-overlay .share-btn, .masonry .item .img-overlay .zoom-btn, 
+.manage-img-wrapper .img-overlay .share-btn, .manage-img-wrapper .img-overlay .edit-btn{
 	display: inline-block;
 	/*border: 1px solid #999899;
 	background: #3c3b3c;*/
@@ -818,13 +822,19 @@
 	/*padding: 10px;
 	border-radius: 50%;*/
 }
-.masonry .item .img-overlay i{
+.manage-img-wrapper .img-overlay .share-btn, .manage-img-wrapper .img-overlay .edit-btn{
+	border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.masonry .item .img-overlay i, .manage-img-wrapper .img-overlay i{
 	font-size: 20px;
     /*position: relative;
     right: 1px;
     top: 1px;*/
 }
-.masonry .item:hover .img-overlay{
+.masonry .item:hover .img-overlay, .manage-img-wrapper:hover .img-overlay{
 	opacity: 1;
 }
 .cover-bg-div .bg-image{
@@ -874,25 +884,34 @@
 .cover-bg-div .text-ctn .date{
 	font-size: 25px;
 }
-.cover-bg-div .text-ctn .date:before{
+.cover-bg-div .text-ctn .date:before, .title-before:before{
 	content: "";
     position: absolute;
     background-image: linear-gradient(to right, #008fd200 , #008fd2)!important;
     width: 100px;
     height: 5px;
-    transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+	-moz-transform: translateY(1rem);
+	transform: translateY(1rem);
     border-radius: 5px;
     margin-left: -120px;
 }
-.cover-bg-div .text-ctn .date:after{
+.cover-bg-div .text-ctn .date:after, .title-after:after{
 	content: "";
     position: absolute;
     background-image: linear-gradient(to right, #008fd2 , #008fd200)!important;
     width: 100px;
     height: 5px;
-    transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+	-moz-transform: translateY(1rem);
+	transform: translateY(1rem);
     border-radius: 5px;
     margin-left: 20px;
+}
+.title-before:before, .title-after:after{
+	-webkit-transform: translateY(0.9rem);
+	-moz-transform: translateY(0.9rem);
+	transform: translateY(0.9rem);
 }
 .cover-bg-div .social-media .logo{
 	width: 20%;
@@ -935,6 +954,14 @@
     background-image: linear-gradient(to right, #1f70e8, #a407fe);
 }
 /*------ /Masonry Gallery ---------*/
+.mng-album-divider{
+	background: #a3a3a3;
+    height: 1px;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
 .album-footer{
 	background: #008fd2;
 }
@@ -1061,11 +1088,11 @@
 	/* Masonry container */
 	  	column-count: 1;
 	}
-	.cover-bg-div .text-ctn .date:before{
+	.cover-bg-div .text-ctn .date:before,.title-before:before{
 		width: 70px;
 		margin-left: -80px;
 	}
-	.cover-bg-div .text-ctn .date:after{
+	.cover-bg-div .text-ctn .date:after, .title-after:after{
 		width: 70px;
 		margin-left: 10px;
 	}
