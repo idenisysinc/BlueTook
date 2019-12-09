@@ -768,7 +768,7 @@
 }
 /*----- /Filter sidebar ------*/
 .full-radius5{
-	border-radius: 5px;
+	border-radius: 5px!important;
 }
 .xsml-mb{
 	margin-bottom: 5px;
@@ -1009,6 +1009,39 @@
 }
 .ui-sortable-handle:hover{
 	cursor: move;
+}
+.sidebar-link-div .filter-body *{
+	color: #7b7b7b;
+    font-weight: 500;
+}
+.sidebar-link-div .filter-body a{
+    padding: 10px 16px;
+}
+.sidebar-link-div .filter-body a:hover, .sidebar-link-div .filter-body a:hover i{
+	color: #627586;
+	background: none;
+}
+.sidebar-link-div .filter-body a.active{
+	background: #0784bf;
+	color: #fff;
+	border-radius: 5px;
+}
+.sidebar-link-div .filter-body a.active i{
+	color: #fff;
+}
+.sidebar-link-div .filter-body a:focus{
+	background: none;
+}
+.cookie-font{
+	font-family: 'Cookie', cursive;
+}
+.title-font35{
+	font-size: 35px;
+}
+.title-font35:before, .title-font35:after{
+	-webkit-transform: translateY(1.4rem);
+	-moz-transform: translateY(1.4rem);
+	transform: translateY(1.4rem);
 }
 /*------- Media Query --------*/
 @media(min-width: 1025px){
