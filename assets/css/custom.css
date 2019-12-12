@@ -650,6 +650,9 @@
 .font-16{
 	font-size: 16px;
 }
+.font-40{
+	font-size: 40px;
+}
 .blk-lgt-color{
 	color: #4b4b4b;
 }
@@ -947,11 +950,7 @@
 	right:0;
 	top: 0;
 	bottom: 0;
-	opacity: 0.8;
-	background-color: #1f70e8; /* For browsers that do not support gradients */
-    background-image: -webkit-linear-gradient(left, #1f70e8, #a407fe);
-    background-image: -o-linear-gradient(left, #1f70e8, #a407fe);
-    background-image: linear-gradient(to right, #1f70e8, #a407fe);
+	background-color: rgba(0, 0, 0, 0.75);
 }
 /*------ /Masonry Gallery ---------*/
 .mng-album-divider{
@@ -1043,6 +1042,32 @@
 	-moz-transform: translateY(1.4rem);
 	transform: translateY(1.4rem);
 }
+.subs-img {
+	height: 350px!important;
+}
+.external-bullet{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+.external-bullet li{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	margin-bottom: 10px;
+}
+.external-bullet li:last-child{
+	margin-bottom: 0;
+}
+.external-bullet li::before{
+	content: "\e853";
+	font-family: "Icomoon";
+	color: #4b4b4b;
+	display: inline-block; 
+	width: 1em;
+	font-size: 17px;
+	margin-right: 13px;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -1060,12 +1085,23 @@
 		display: none!important;
 	}
 }
+@media(min-width: 992px){
+	.border-rt1{
+		border-right: 1px solid #777
+	}
+}
 @media(max-width: 991px){
 	.left-border{
 	border-left:none;
 }
 .top-border{
 	border-top: 1px solid #ddd;
+	}
+	.border-rt1{
+		border-right: 0;
+	}
+	.tab-mt20{
+		margin-top: 20px;
 	}
 }
 @media (min-width: 768px){
@@ -1124,10 +1160,12 @@
 	.cover-bg-div .text-ctn .date:before,.title-before:before{
 		width: 70px;
 		margin-left: -80px;
+		display: none;
 	}
 	.cover-bg-div .text-ctn .date:after, .title-after:after{
 		width: 70px;
 		margin-left: 10px;
+		display: none;
 	}
 	.cover-bg-div .social-media .logo{
 		width: 50%;
