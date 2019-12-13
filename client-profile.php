@@ -92,14 +92,25 @@
 									</div>
 									<div class="col-xl-6">
 										<div class="form-group">
-											<label class="d-block">Birth Date</label>
-											<input type="date" class="form-control" placeholder="Birth Date">
+											<label class="d-block">Gender</label>
+											<select class="form-control rate-type">
+				                                <option value="" disabled="" selected="">Choose Gender</option>
+				                                <option value="opt2">Male</option>
+				                                <option value="opt3">Female</option>
+				                                <option value="opt4">Others</option>
+			                            	</select>
 										</div>
 									</div>
 								</div>
 								<!-- /row5 -->
 								<!-- row6 -->
 								<div class="row">
+									<div class="col-xl-6">
+										<div class="form-group">
+											<label class="d-block">Birth Date</label>
+											<input type="date" class="form-control" placeholder="Birth Date">
+										</div>
+									</div>
 									<div class="col-xl-6">
 										<div class="form-group">
 											<label class="d-block">Anniversary</label>
