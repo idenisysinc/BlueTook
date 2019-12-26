@@ -47,6 +47,11 @@
 	<script src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
 	<script src="assets/js/demo_pages/form_multiselect.js"></script>
 	<!-- /multiselect form dropdown-->
+	<!-- for graph chart -->
+	<script src="assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script src="assets/js/plugins/visualization/c3/c3.min.js"></script>
+	<script src="assets/js/demo_pages/charts/c3/c3_grid.js"></script>
+	<!-- /for graph chart -->
 	<script src="assets/js/app.js"></script>
 	<!-- /theme JS files -->
 	
