@@ -19,6 +19,11 @@
 	<link href="assets/css/custom.css" rel="stylesheet" type="text/css">
 	<!-- /global stylesheets -->
 
+	<!-- event calendar css -->
+	<link rel="stylesheet" href="http://qtip2.com/v/stable/jquery.qtip.css">
+	<link rel="stylesheet" href="http://qtip2.com/static/stylesheets/libs/jquery.fullcalendar.css">
+	<!-- /event calendar css -->
+
 	<!-- Core JS files -->
 	<script src="assets/js/main/jquery.min.js"></script>
 	<script src="assets/js/main/bootstrap.bundle.min.js"></script>

@@ -1072,6 +1072,83 @@
 	padding: 0;
 	min-width: 100%;
 }
+.suc-msg{
+	padding: .4375rem .875rem;
+    border: 1px solid #88cc8a;
+    border-radius: .1875rem;
+    background: #e3fbe4;
+}
+.error-msg{
+	padding: .4375rem .875rem;
+    border: 1px solid #f57a71;
+    border-radius: .1875rem;
+    background: #ffedeb;
+}
+/*------- Highlighted calendar---------*/
+#datepicker .Highlighted a{
+   background-color : #4caf50 !important;
+   background-image :none !important;
+   color: #fff !important;
+}
+#datepicker .ui-datepicker .ui-datepicker-calendar td.ui-datepicker-current-day .ui-state-active {
+    color: #333;
+    background-color: transparent;
+}
+#datepicker .ui-datepicker .ui-datepicker-calendar td.ui-datepicker-current-day .ui-state-active:hover{
+	background-color: #f5f5f5;
+}
+#datepicker .Highlighted:hover{
+	position: relative;
+}
+#datepicker .Highlighted[title]:hover:after {
+	content: attr(title);
+	position: absolute;
+	left: 0;
+	top: 100%;
+	white-space: nowrap;
+	z-index: 1;
+	padding: .5rem .75rem;
+ 	color: #fff;
+	text-align: center;
+	background-color: #000;
+	border-radius: .1875rem;
+}
+/*------- Highlighted calendar---------*/
+/*------- fullcalendar css---------*/
+#fullcalendar .fc-event{
+	font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top: 0;
+}
+#fullcalendar .fc-header{
+	border: none;
+	background: #999;
+	color: #fff;
+}
+#fullcalendar .fc-header-title h2{
+	font-size: 20px;
+	line-height: 2em;
+	margin-bottom: 0;
+}
+#fullcalendar .fc-header td{
+	vertical-align: middle;
+    text-align: center;
+}
+#fullcalendar .fc-state-default.fc-corner-right, #fullcalendar .fc-state-default.fc-corner-left{
+	margin-bottom: 0;
+}
+#fullcalendar .fc-event{
+	border: 1px solid #4caf50;
+    background-color: #4caf50;
+}
+#qtip-fullcalendar-content p{
+	margin-bottom: 0;
+}
+.qtip-default .qtip-icon {
+    background: #484141!important;
+}
+/*------- /fullcalendar css---------*/
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
