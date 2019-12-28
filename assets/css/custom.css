@@ -1113,6 +1113,17 @@
 	background-color: #000;
 	border-radius: .1875rem;
 }
+.qtip-titlebar .qtip-close{
+	right: -8px!important;
+    top: 0px!important;
+    border: 0;
+}
+.highlight a{
+	background: #4caf50;
+}
+.fc-event-inner{
+	visibility: hidden; 
+}
 /*------- Highlighted calendar---------*/
 /*------- fullcalendar css---------*/
 #fullcalendar .fc-event{
@@ -1123,12 +1134,12 @@
 }
 #fullcalendar .fc-header{
 	border: none;
-	background: #999;
+	background: #1b1b1b;
 	color: #fff;
 }
 #fullcalendar .fc-header-title h2{
-	font-size: 20px;
-	line-height: 2em;
+	font-size: 18px;
+    line-height: 2.5em;
 	margin-bottom: 0;
 }
 #fullcalendar .fc-header td{
@@ -1146,8 +1157,27 @@
 	margin-bottom: 0;
 }
 .qtip-default .qtip-icon {
-    background: #484141!important;
+    background: #000000!important;
+    color: #fff!important;
 }
+.qtip-titlebar{
+	position: static!important;
+    padding: 0!important;
+}
+#fullcalendar .fc-header-right .fc-corner-left{
+	margin-right: 5px;
+}
+#fullcalendar .fc-header td{
+	border: 0;
+}
+/*.qtip-dark .qtip-titlebar {
+	background-color: transparent!important;
+    float: right!important;
+}
+.qtip-icon .ui-icon{
+	background: #000!important;
+    color: #fff!important;
+}*/
 /*------- /fullcalendar css---------*/
 /*------- Media Query --------*/
 @media(min-width: 1025px){
