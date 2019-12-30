@@ -1179,6 +1179,20 @@
     color: #fff!important;
 }*/
 /*------- /fullcalendar css---------*/
+.contc-details input, .contc-details textarea{
+	background-color: #f3f3f5;
+	color: #4b4b4b;
+	border: 0;
+}
+.map-details{
+	height: 250px;
+}
+.map-details iframe{
+	width: 100%;
+}
+.cust-line-ht{
+	line-height: 1.2em;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -1200,12 +1214,18 @@
 	.border-rt1{
 		border-right: 1px solid #777
 	}
+	/*.desk-view{
+		display: block;
+	}*/
+	.mob-view{
+		display: none;
+	}
 }
 @media(max-width: 991px){
 	.left-border{
 	border-left:none;
-}
-.top-border{
+	}
+	.top-border{
 	border-top: 1px solid #ddd;
 	}
 	.border-rt1{
@@ -1213,6 +1233,18 @@
 	}
 	.tab-mt20{
 		margin-top: 20px;
+	}
+	.contc-details{
+		margin-top: 30px;
+	}
+	.sm-view-mt{
+		margin-top: 30px;
+	}
+	.desk-view{
+		display: none;
+	}
+	.mob-view{
+		display: block;
 	}
 }
 @media (min-width: 768px){
