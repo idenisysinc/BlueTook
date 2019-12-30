@@ -17,12 +17,12 @@
 			<!-- Page header -->
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
-					<div class="page-title d-flex">
+					<div class="page-title d-flex py-2">
 						<h4 class="font-weight-semibold"><i class="icon-graph mr-2"></i>Lead Analysis</h4>
 					</div>
 				</div>
-
-				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+				<!-- comment out or delete breadcrumb from all pages -->
+				<!-- <div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="#" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
@@ -30,7 +30,8 @@
 						</div>
 					</div>
 
-				</div>
+				</div> -->
+				<!-- /comment out or delete breadcrumb from all pages -->
 			</div>
 			<!-- /page header -->
 
