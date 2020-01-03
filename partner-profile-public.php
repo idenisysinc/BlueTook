@@ -234,17 +234,65 @@
 					</div>
 				</div>
 				<!-- Image grid -->
-				<div class="text-center mt-5 mb-3">
-					<a href="#" class="tab-filter active">Photos</a>
-					<a href="#" class="tab-filter">Weddings</a>
-					<a href="#" class="tab-filter">Photo Shoots</a>
-					<a href="#" class="tab-filter">Weddings</a>
-					<a href="#" class="tab-filter">Photo Shoots</a>
-					<a href="#" class="tab-filter">Weddings</a>
-					<a href="#" class="tab-filter">Photo Shoots</a>
+				<h2 class="text-uppercase position-relative mb-0 text-center title-before title-after mt-5">Portfolio</h2>
+				<div class="text-center mt-3 mb-3">
+					<a href="#" class="tab-filter active font-size-lg">Photography</a>
+					<a href="#" class="tab-filter font-size-lg">Cinematography</a>
+					<a href="#" class="tab-filter font-size-lg">Modelling</a>
+					<a href="#" class="tab-filter font-size-lg">Makeup</a>
+					<a href="#" class="tab-filter font-size-lg">Editing</a>
+				</div>
+				<div class="text-center mt-3 mb-3">
+					<a href="#" class="tab-filter">Wedding</a>
+					<a href="#" class="tab-filter">Travel</a>
+					<a href="#" class="tab-filter">Kids & Family</a>
+					<a href="#" class="tab-filter">Maternity</a>
+					<a href="#" class="tab-filter active">Product</a>
+					<a href="#" class="tab-filter">Fashion</a>
+					<a href="#" class="tab-filter">Video Links</a>
 				</div>
 				<div class="row">
-					<div class="col-sm-6 col-lg-2">
+					<div class="col-sm-6 col-lg-3">
+						<div class="card">
+							<div class="media-lib-img">
+								<div class="card-img-actions m-1">
+									<img class="card-img-top img-fluid" src="assets/images/masonry/portrait-1.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-lg-3">
+						<div class="card">
+							<div class="media-lib-img">
+								<div class="card-img-actions m-1">
+									<img class="card-img-top img-fluid" src="assets/images/masonry/landscape-4.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-lg-3">
+						<div class="card">
+							<div class="media-lib-img">
+								<div class="card-img-actions m-1">
+									<img class="card-img-top img-fluid" src="assets/images/masonry/portrait-2.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-lg-3">
+						<div class="card">
+							<div class="media-lib-img">
+								<div class="card-img-actions m-1">
+									<img class="card-img-top img-fluid" src="assets/images/masonry/landscape-3.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- <div class="col-sm-6 col-lg-2">
 						<div class="card">
 							<div class="card-img-actions m-1">
 								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
@@ -258,91 +306,51 @@
 								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
 							</div>
 						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-2">
-						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-2">
-						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-2">
-						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-2">
-						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
-							</div>
-						</div>
-					</div>
+					</div> -->
 
 				</div>
 
 				<div class="row">
-					<div class="col-sm-6 col-lg-2">
+					<div class="col-sm-6 col-lg-3">
 						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
+							<div class="media-lib-img">
+								<div class="card-img-actions m-1">
+									<img class="card-img-top img-fluid" src="assets/images/masonry/landscape-1.jpg" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-lg-2">
+					<div class="col-sm-6 col-lg-3">
 						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
+							<div class="media-lib-img">
+								<div class="card-img-actions m-1">
+									<img class="card-img-top img-fluid" src="assets/images/masonry/portrait-3.jpg" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-lg-2">
+					<div class="col-sm-6 col-lg-3">
 						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
+							<div class="media-lib-img">
+								<div class="card-img-actions m-1">
+									<img class="card-img-top img-fluid" src="assets/images/masonry/landscape-2.jpg" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-lg-2">
+					<div class="col-sm-6 col-lg-3">
 						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
+							<div class="media-lib-img">
+								<div class="card-img-actions m-1">
+									<img class="card-img-top img-fluid" src="assets/images/masonry/portrait-4.jpg" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-lg-2">
-						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-2">
-						<div class="card">
-							<div class="card-img-actions m-1">
-								<img class="card-img img-fluid" src="assets/images/placeholders/placeholder.jpg" alt="">
-							</div>
-						</div>
-					</div>
-					
 				</div>
 				<!-- /Image grid -->
 			</div>
