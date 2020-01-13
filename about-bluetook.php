@@ -61,7 +61,47 @@
 				<!-- /mobile view -->
 			</div>
 			<!-- /content area -->
-
+			<div class="content-area extra-lgt-gry-bg py-5">
+				<div class="row w-90 m-auto px-3">
+					<div class="col-sm-12 mb-3">
+						<h2 class="position-relative text-center title-before title-after cookie-font title-font35 mb-0 blue-text">Join Bluetook</h2>
+						<p class="text-center">Why join the bluetook creative community?</p>
+					</div>
+				</div>
+				<div class="row w-90 m-auto px-3">
+					<div class="col-sm-3">
+						<img src="assets/images/join-bluetook-1.jpg" class="img-fluid full-radius5 mb-3" alt="">
+						<p class="blue-text font-bold font-18">Collaborate With Fellow Creators And Artists</p>
+						<p><strong>Connect-</strong> Network, connect and collaborate with like-minded artists across cities.</p>
+						<p><strong>Co-working-</strong> Get inspired and push your creativity by conducting workshops, learn and mentor.</p>
+					</div>
+					<div class="col-sm-3">
+						<img src="assets/images/join-bluetook-2.jpg" class="img-fluid full-radius5 mb-3 mob-mt-30" alt="">
+						<p class="blue-text font-bold font-18">Connecting Artists With Their Art</p>
+						<p><strong>Portfolio-</strong> The Soft  filters work wonders in arranging the photos with one click without having to create multiple albums and the self introductory video allows you to share your work your way.</p>
+						<p><strong>Analytics-</strong> Know who visited your profile, views on your pictures and get suggestions based on the analysis.</p>
+					</div>
+					<div class="col-sm-3">
+						<img src="assets/images/join-bluetook-3.jpg" class="img-fluid full-radius5 mb-3 mob-mt-30" alt="">
+						<p class="blue-text font-bold font-18">Empowering The Creator And The Muse</p>
+						<p><strong>Chronology-</strong> Create a Calendar to update your availability.</p>
+						<p><strong>Gallery-</strong> Create a dedicated gallery for your client and share the secure link.</p>
+						<p><strong>Thoughts-</strong> Read recommendations and share your experience with an artist.</p>
+					</div>
+					<div class="col-sm-3">
+						<img src="assets/images/join-bluetook-4.jpg" class="img-fluid full-radius5 mb-3 mob-mt-30" alt="">
+						<p class="blue-text font-bold font-18">Discover And Engage With Your Audience</p>
+						<p><strong>Chat-</strong> The client can connect directly with you over live chat helping address and resolve any query in real-time.</p>
+						<p><strong>Social Sharing easy-</strong> The portfolio as a whole or an individual image can be shared on multiple social media platforms with one click sharing hence increasing visibility and reducing time for uploading pics on multiple times on multiple platforms.</p>
+					</div>
+				</div>
+			</div>
+			<div class="overlap-text extra-lgt-gry-bg">
+				<div class="content w-lg-50 tab-width-80 custom-box-shadow bg-white text-details full-radius5 blue-bg-color text-center">
+					<p class="font-light font-14 mb-0">Let’s together create something great. Join the best and brightest now.</p>
+					<p class="font-bold font-18 mb-0">Join The Bluetook Creative Community</p>
+				</div>
+			</div>
 			<!-- Sub Footer -->
 			<?php include('sub-footer.php') ?>
 			<!-- / Subfooter -->

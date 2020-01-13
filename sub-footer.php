@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-lg navbar-light footer-custom">
+<div class="navbar navbar-expand-lg navbar-light footer-custom py-4">
 	<div class="row w-90 m-auto">
 		<div class="col-lg-3">
 			 <div class="card-body px-0">

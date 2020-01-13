@@ -1193,6 +1193,26 @@
 .cust-line-ht{
 	line-height: 1.2em;
 }
+.blue-text{
+	color: #008fd2;
+}
+.font-bold{
+	font-weight: 700;
+}
+.font-light{
+	font-weight: 300;
+}
+.blue-bg-color{
+	background: #008fd2!important;
+	color: #fff;
+}
+.overlap-text .text-details {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -1318,6 +1338,9 @@
 	}
 	.prev-draft-publish-div button{
 		margin-bottom: 10px;
+	}
+	.mob-mt-30{
+		margin-top: 30px;
 	}
 }
 @media(max-width: 375px){
