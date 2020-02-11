@@ -1224,6 +1224,9 @@
 	opacity: 1;
 	background-color: rgba(0, 0, 0, 0.59);
 }
+.whatsapp-btn{
+	background: #00a859!important;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -1239,6 +1242,9 @@
 	}
 	.display-hide{
 		display: none!important;
+	}
+	.sm-desktop-mb-10{
+		margin-bottom: 10px;
 	}
 }
 @media(min-width: 992px){
@@ -1368,5 +1374,13 @@
 	}
 	.book-now-btn{
 		margin-bottom: 10px;
+	}
+}
+@media (max-width: 320px){
+	.whatsapp-btn{
+		margin-bottom: 10px;
+	}
+	.x-sm-ml-0{
+		margin-left: 0!important;
 	}
 }
