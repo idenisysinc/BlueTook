@@ -18,7 +18,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4 class="font-weight-semibold"><i class="icon-users4 mr-2"></i>Responded Leads</h4>
+						<h4 class="font-weight-semibold"><i class="icon-briefcase3 mr-2"></i>My New Work</h4>
 					</div>
 				</div>
 
@@ -26,7 +26,7 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="#" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<span class="breadcrumb-item active">Responded Leads</span>
+							<span class="breadcrumb-item active">My New Work</span>
 						</div>
 					</div>
 
@@ -53,11 +53,7 @@
 											<h6 class="media-title font-weight-semibold float-lg-left">Photography - Wedding <span> | 22-Feb-2020</span></h6>
 											<p class="m-0 float-lg-right">Posted: <span>10 days ago</span></p>
 										</div>
-										<p class="text-secondary m-0 clear-both">
-											Budget: <span>Rs. 50000</span>
-										</p>
-										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi molestias consequuntur incidunt, ab accusantium numquam, temporibus. Deserunt consectetur fugit nam rem doloribus temporibus repellendus, ut fugiat sit molestiae id omnis.</p>
-										<p class="m-0"><a href="#" class="color-blue">Revise Offer</a></p>
+										<p class="text-justify clear-both">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi molestias consequuntur incidunt, ab accusantium numquam, temporibus. Deserunt consectetur fugit nam rem doloribus temporibus repellendus, ut fugiat sit molestiae id omnis.</p>
 									</div>
 								</div>
 							</div>
@@ -65,12 +61,12 @@
 						<div class="card-footer">
 							<div class="row">
 								<div class="col-xl-4 d-flex align-items-center sm-desktop-mb-10">
-									<p class="float-left m-0 mr-2">10 Responses</p>
-									<p class="float-left m-0">Bid Amount: Rs. 48700</p>
+									<p class="float-left m-0 font-weight-semibold font-16">Offer Value: Rs. 50000</p>
 								</div>
-								<div class="col-lg-8 text-xl-right">
-									<button type="button" class="btn bg-grey whatsapp-btn px-0"><img src="assets/images/watsapp-icon-grn.png" class="mr-1" width="18" height="18" alt="">Send Whatsapp</button>
-									<button type="button" class="btn bg-grey ml-2 x-sm-ml-0 dropdown" data-toggle="dropdown"><i class="icon-bubbles2 mr-2"></i>Chat Now</button>
+								<div class="col-xl-8 text-xl-right">
+									<button type="button" class="btn bg-success"><i class="icon-thumbs-up3 mr-2"></i>Accept</button>
+									<button type="button" class="btn bg-danger ml-2 sm-mob-cust-ml-0" data-toggle="modal" data-target="#modal_large"><i class="icon-cross2 mr-2"></i>Reject</button>
+									<button type="button" class="btn bg-grey ml-2 sm-mob-cust-ml-0 sm-mob-cust-mt-5 dropdown" data-toggle="dropdown"><i class="icon-bubbles2 mr-2"></i>Chat Now</button>
 									<!-- chat now dropdown -->
 									<div class="dropdown-menu dropdown-menu-right chat-body">
 										<div class="card-body">
@@ -245,7 +241,7 @@
 									<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mb-1" width="70" height="70" alt="">
 									<p class="m-0 font-weight-semibold">Swati Raj</p>
 									<p class="m-0 text-secondary">Kolkata</p>
-									<p class="mb-2 mb-xl-0"><span class="badge badge-pill bg-success px-3">Awarded</span></p>
+									<p class="mb-2 mb-xl-0"><span class="badge badge-pill badge-warning px-3">Pending</span></p>
 								</div>
 								<div class="col-xl-10">
 									<div class="media-body">
@@ -253,11 +249,7 @@
 											<h6 class="media-title font-weight-semibold float-lg-left">Videography - Drone <span> | 22-Feb-2020</span></h6>
 											<p class="m-0 float-lg-right">Posted: <span>10 days ago</span></p>
 										</div>
-										<p class="text-secondary m-0 clear-both">
-											Budget: <span>Rs. 50000</span>
-										</p>
-										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi molestias consequuntur incidunt, ab accusantium numquam, temporibus. Deserunt consectetur fugit nam rem doloribus temporibus repellendus, ut fugiat sit molestiae id omnis.</p>
-										<!-- <p class="m-0"><a href="#" class="color-blue">Revise Offer</a></p> -->
+										<p class="text-justify clear-both">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi molestias consequuntur incidunt, ab accusantium numquam, temporibus. Deserunt consectetur fugit nam rem doloribus temporibus repellendus, ut fugiat sit molestiae id omnis.</p>
 									</div>
 								</div>
 							</div>
@@ -265,12 +257,12 @@
 						<div class="card-footer">
 							<div class="row">
 								<div class="col-xl-4 d-flex align-items-center sm-desktop-mb-10">
-									<p class="float-left m-0 mr-2">10 Responses</p>
-									<p class="float-left m-0">Bid Amount: Rs. 48700</p>
+									<p class="float-left m-0 font-weight-semibold font-16">Offer Value: Rs. 50000</p>
 								</div>
-								<div class="col-lg-8 text-xl-right">
-									<!-- <button type="button" class="btn bg-grey whatsapp-btn" data-toggle="modal" data-target="#modal_large"><img src="assets/images/watsapp-icon-white.png" class="rounded-circle mr-2" width="18" height="18" alt="">Send Whatsapp</button> -->
-									<button type="button" class="btn bg-grey dropdown" data-toggle="dropdown"><i class="icon-bubbles2 mr-2"></i>Chat Now</button>
+								<div class="col-xl-8 text-xl-right">
+									<button type="button" class="btn bg-success"><i class="icon-thumbs-up3 mr-2"></i>Accept</button>
+									<button type="button" class="btn bg-danger ml-2 sm-mob-cust-ml-0" data-toggle="modal" data-target="#modal_large"><i class="icon-cross2 mr-2"></i>Reject</button>
+									<button type="button" class="btn bg-grey ml-2 sm-mob-cust-ml-0 sm-mob-cust-mt-5 dropdown" data-toggle="dropdown"><i class="icon-bubbles2 mr-2"></i>Chat Now</button>
 									<!-- chat now dropdown -->
 									<div class="dropdown-menu dropdown-menu-right chat-body">
 										<div class="card-body">
@@ -445,7 +437,7 @@
 									<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mb-1" width="70" height="70" alt="">
 									<p class="m-0 font-weight-semibold">Swati Raj</p>
 									<p class="m-0 text-secondary">Kolkata</p>
-									<p class="mb-2 mb-xl-0"><span class="badge badge-pill bg-grey px-3">Completed</span></p>
+									<p class="mb-2 mb-xl-0"><span class="badge badge-pill badge-warning px-3">Pending</span></p>
 								</div>
 								<div class="col-xl-10">
 									<div class="media-body">
@@ -453,11 +445,7 @@
 											<h6 class="media-title font-weight-semibold float-lg-left">Editing - High End <span> | 22-Feb-2020</span></h6>
 											<p class="m-0 float-lg-right">Posted: <span>10 days ago</span></p>
 										</div>
-										<p class="text-secondary m-0 clear-both">
-											Budget: <span>Rs. 50000</span>
-										</p>
-										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi molestias consequuntur incidunt, ab accusantium numquam, temporibus. Deserunt consectetur fugit nam rem doloribus temporibus repellendus, ut fugiat sit molestiae id omnis.</p>
-										<!-- <p class="m-0"><a href="#" class="color-blue">Revise Offer</a></p> -->
+										<p class="text-justify clear-both">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi molestias consequuntur incidunt, ab accusantium numquam, temporibus. Deserunt consectetur fugit nam rem doloribus temporibus repellendus, ut fugiat sit molestiae id omnis.</p>
 									</div>
 								</div>
 							</div>
@@ -465,12 +453,12 @@
 						<div class="card-footer">
 							<div class="row">
 								<div class="col-xl-4 d-flex align-items-center sm-desktop-mb-10">
-									<p class="float-left m-0 mr-2">10 Responses</p>
-									<p class="float-left m-0">Bid Amount: Rs. 48700</p>
+									<p class="float-left m-0 font-weight-semibold font-16">Offer Value: Rs. 50000</p>
 								</div>
-								<div class="col-lg-8 text-xl-right">
-									<!-- <button type="button" class="btn bg-grey whatsapp-btn" data-toggle="modal" data-target="#modal_large"><img src="assets/images/watsapp-icon-white.png" class="rounded-circle mr-2" width="18" height="18" alt="">Send Whatsapp</button> -->
-									<button type="button" class="btn bg-grey dropdown" data-toggle="dropdown"><i class="icon-bubbles2 mr-2"></i>Chat Now</button>
+								<div class="col-xl-8 text-xl-right">
+									<button type="button" class="btn bg-success"><i class="icon-thumbs-up3 mr-2"></i>Accept</button>
+									<button type="button" class="btn bg-danger ml-2 sm-mob-cust-ml-0" data-toggle="modal" data-target="#modal_large"><i class="icon-cross2 mr-2"></i>Reject</button>
+									<button type="button" class="btn bg-grey ml-2 sm-mob-cust-ml-0 sm-mob-cust-mt-5 dropdown" data-toggle="dropdown"><i class="icon-bubbles2 mr-2"></i>Chat Now</button>
 									<!-- chat now dropdown -->
 									<div class="dropdown-menu dropdown-menu-right chat-body">
 										<div class="card-body">
@@ -662,6 +650,35 @@
 
 	</div>
 	<!-- /page content -->
+	<!-- Large modal -->
+		<div id="modal_large" class="modal fade" tabindex="-1">
+			<div class="modal-dialog modal-lg">
+				<form action="#">
+					<div class="modal-content">
+						<div class="modal-header grey-bg text-white pb-3">
+							<h1 class="modal-title">Reject Offer</h1>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<div class="modal-body">							
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="form-group">
+										<label class="d-block"><strong>Enter Reason for Rejection</strong> (Max 2000 chars)</label>
+										<textarea rows="5" cols="5" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-footer">
+							<button type="button" class="btn bg-grey">Submit <i class="icon-circle-right2 ml-2"></i> </button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	<!-- /large modal -->
 
 </body>
 </html>

@@ -30,7 +30,10 @@ var IonSlider = function() {
         //
 
         // Basic slider
-        $('#ion-basic').ionRangeSlider();
+        $('#ion-basic,#ion-basic2,#ion-basic3').ionRangeSlider({
+            min: 1,
+            max: 5
+        });
 
         // Set start point
         $('#ion-start').ionRangeSlider({
