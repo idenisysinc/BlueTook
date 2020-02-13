@@ -1464,6 +1464,41 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .light-white-bg{
 	background: #f1f1f1;
 }
+.img-select-option{
+	top: -5px;
+    right: -14px;
+}
+.img-select-option .uniform-checker span{
+	background: #fff;
+	color: #1e6fe8;
+	border: .125rem solid #1e6fe8;
+}
+.capsule{
+	background: #ddd;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 26px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    min-width: 223px;
+}
+.capsule-active-bg{
+	background: #4caf50;
+	color: #fff;
+}
+.capsule:hover{
+	background: #4caf50;
+	color: #fff;
+}
+.divider-top{
+	border-top: 1px solid rgba(0,0,0,.125);
+	margin-bottom: 10px;
+}
+.max-h-300{
+	max-height: 300px!important;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{

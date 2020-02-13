@@ -57,6 +57,10 @@
 	<script src="assets/js/plugins/visualization/c3/c3.min.js"></script>
 	<script src="assets/js/demo_pages/charts/c3/c3_grid.js"></script>
 	<!-- /for graph chart -->
+	<!-- switchery -->
+	<script src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="assets/js/demo_pages/form_checkboxes_radios.js"></script>
+	<!-- /switchery -->
 	<script src="assets/js/app.js"></script>
 	<!-- /theme JS files -->
 	

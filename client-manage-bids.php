@@ -17,60 +17,58 @@
 							<div class="filter-body full-radius5">
 								<a href="#" class="dropdown-item"><i class="icon-user"></i> My Profile</a>
 								<a href="#" class="dropdown-item"><i class="icon-pencil5"></i> Edit Profile</a>
-								<a href="#" class="dropdown-item"><i class="icon-hammer2"></i> Manage Bids</a>
+								<a href="#" class="dropdown-item active"><i class="icon-hammer2"></i> Manage Bids</a>
 								<a href="#" class="dropdown-item"><i class="icon-clipboard3"></i> Manage Order</a>
-								<a href="#" class="dropdown-item active"><i class="icon-images2"></i> Manage Album</a>
+								<a href="#" class="dropdown-item"><i class="icon-images2"></i> Manage Album</a>
 								<a href="#" class="dropdown-item"><i class="icon-star-full2"></i> Write a Review</a>
 								<a href="#" class="dropdown-item"><i class="icon-envelope"></i>Inbox</a>
 								<a href="#" class="dropdown-item"><i class="icon-exit3"></i> Logout</a>
 							</div>
 						</div>
-						<button type="submit" class="btn bg-indigo-400 gradi-btn w-100" data-toggle="modal" data-target="#modal_requirement"><i class="icon-pushpin mr-2"></i> Post a Requirement</button>
+						<button type="submit" class="btn bg-indigo-400 gradi-btn w-100 mb-2" data-toggle="modal" data-target="#modal_requirement"><i class="icon-pushpin mr-2"></i> Post a Requirement</button>
 					</div>
 					<!-- List Items -->
 					<div class="col-lg-9">
 						<!-- row1 -->
 						<div class="row">
 							<div class="col-sm-12">
-								<h2 class="position-relative text-center title-before title-after cookie-font title-font35">Manage Album</h2>
-							</div>
-							<div class="col-xl-6">
-								<div class="card custom-box-shadow full-radius5 bord-white-2">
-									<!-- img -->
-									<div class="div16by9-wrapper manage-img-wrapper">
-										<div class="img-overlay">
-											<span><a href="#" class="share-btn mr-2"><i class="icon-eye"></i></a><a href="#" class="edit-btn"><i class="icon-share3"></i></a></span>
-										</div>
-								      	<img src="assets/images/1.jpg" alt="Image 1" class="img-fluid bord-radius-tp-5">
-								    </div>
-									<!-- /img -->
-									<div class="card-body text-center">
-										<h6 class="mb-0 font-18 blk-lgt-color"><strong>James Alexander</strong></h6>
-										<p class="mb-0">Date: <span>12.12.2019</span></p>
-										<p class="mng-album-divider"></p>
-							    	</div>
-						    	</div>
-							</div>
-
-							<div class="col-xl-6">
-								<div class="card custom-box-shadow full-radius5 bord-white-2">
-									<!-- img -->
-									<div class="div16by9-wrapper manage-img-wrapper">
-										<div class="img-overlay">
-											<span><a href="#" class="share-btn mr-2"><i class="icon-eye"></i></a><a href="#" class="edit-btn"><i class="icon-share3"></i></a></span>
-										</div>
-								      	<img src="assets/images/2.jpg" alt="Image 1" class="img-fluid bord-radius-tp-5">
-								    </div>
-									<!-- /img -->
-									<div class="card-body text-center">
-										<h6 class="mb-0 font-18 blk-lgt-color"><strong>James Alexander</strong></h6>
-										<p class="mb-0">Date: <span>12.12.2019</span></p>
-										<p class="mng-album-divider"></p>
-							    	</div>
-						    	</div>
-							</div>
+								<h2 class="position-relative text-center title-before title-after cookie-font title-font35">Manage Bids</h2>
+							</div>	
 						</div>
 						<!-- /row1 -->
+						<div class="content custom-box-shadow bg-white full-radius5">
+							<div class="row">
+								<div class="col-xl-4">
+									<div class="card-img-actions d-inline-block mb-2 mb-xl-0">
+										<img src="assets/images/client-album-cover.jpg" class="rounded mw-100" width="240" height="135" alt="">
+										<div class="card-img-actions-overlay card-img overlay-img-text img-gry-border">
+											Photography
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-8">
+									<div class="media-body">
+										<div>
+											<h6 class="media-title font-weight-semibold float-lg-left">Wedding <span> | 22-Feb-2020</span></h6>
+											<p class="m-0 float-lg-right">Lastest Bid: <span>10 days ago</span></p>
+										</div>
+										<p class="text-muted font-weight-normal m-0 clear-both"><i class="icon-pin font-size-sm "></i> City, State</p>
+										<p class="font-weight-semibold">
+											Budget: <span>Rs. 50000</span>
+										</p>
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi molestias consequuntur incidunt, ab accusantium numquam, temporibus. Deserunt consectetur fugit nam rem doloribus temporibus repellendus, ut fugiat sit molestiae id omnis.</p>
+										<p class="float-md-left m-0">
+											<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mb-1" width="40" height="40" alt="">
+											<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mb-1" width="40" height="40" alt="">
+											<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mb-1" width="40" height="40" alt="">
+											<span>+6 Others</span>		
+										</p>
+										<span class="float-md-right d-block mt-2"><a href="client-all-bids.php">View all Bids</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<!-- /List Items -->
 				</div>
