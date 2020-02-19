@@ -41,19 +41,19 @@
 					<div class="card">
 						<div class="card-body">
 							<div class="row">
-								<div class="col-xl-2 text-xl-center">
+								<div class="col-xl-2 text-center">
 									<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mb-1" width="70" height="70" alt="">
 									<p class="m-0 font-weight-semibold">Swati Raj</p>
 									<p class="m-0 text-secondary">Kolkata</p>
 								</div>
-								<div class="col-xl-10">
+								<div class="col-xl-10 text-center">
 									<div class="media-body">
 										<div>
 											<h6 class="media-title font-weight-semibold float-lg-left">Photography - Wedding <span> | 22-Feb-2020</span></h6>
 											<p class="m-0 float-lg-right">Posted: <span>10 days ago</span></p>
 										</div>
 										<!-- progress bar -->
-										<div class="clear-both pt-2 custom-progress">
+										<div class="clear-both pt-2 custom-progress w-xl-50">
 											<div class="row">
 												<div class="col-sm-4 text-center">
 													<div class="progress" data-percentage="20">
