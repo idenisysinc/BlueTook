@@ -1327,9 +1327,12 @@
   border-style: solid;
   position: absolute;
   top: 0;
-  border-color: #1e6fe8;
+  border-color: #008fd2;
 }
 .client-side-progress .progress .progress-bar{
+	border-width: 4px;
+}
+.client-side-progress .progress:after{
 	border-width: 4px;
 }
 .custom-progress .progress .progress-left .progress-bar {
@@ -1363,6 +1366,11 @@
   font-weight: 400;
   width: 100%;
 }
+
+.client-side-progress .progress .progress-value{
+	font-size: 25px;
+	color: #008fd2;
+}
 /*.progress .progress-value div {
   margin-top: 10px;
 }*/
@@ -1374,74 +1382,74 @@
 /* This for loop creates the 	necessary css animation names 
 Due to the split circle of progress-left and progress right, we must use the animations on each side. 
 */
-.custom-progress .progress[data-percentage="10"] .progress-right .progress-bar {
+/*.custom-progress .progress[data-percentage="10"] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards;
 }
 .custom-progress .progress[data-percentage="10"] .progress-left .progress-bar {
   animation: 0;
-}
+}*/
 
-.custom-progress .progress[data-percentage="20"] .progress-right .progress-bar {
-  animation: loading-2 1.5s linear forwards;
+.custom-progress .progress[data-percentage="1"] .progress-right .progress-bar {
+  animation: loading-2 1s linear forwards;
 }
-.custom-progress .progress[data-percentage="20"] .progress-left .progress-bar {
+.custom-progress .progress[data-percentage="1"] .progress-left .progress-bar {
   animation: 0;
 }
 
-.custom-progress .progress[data-percentage="30"] .progress-right .progress-bar {
+/*.custom-progress .progress[data-percentage="30"] .progress-right .progress-bar {
   animation: loading-3 1.5s linear forwards;
 }
 .custom-progress .progress[data-percentage="30"] .progress-left .progress-bar {
   animation: 0;
-}
+}*/
 
-.custom-progress .progress[data-percentage="40"] .progress-right .progress-bar {
-  animation: loading-4 1.5s linear forwards;
+.custom-progress .progress[data-percentage="2"] .progress-right .progress-bar {
+  animation: loading-4 1s linear forwards;
 }
-.custom-progress .progress[data-percentage="40"] .progress-left .progress-bar {
+.custom-progress .progress[data-percentage="2"] .progress-left .progress-bar {
   animation: 0;
 }
 
-.custom-progress .progress[data-percentage="50"] .progress-right .progress-bar {
+/*.custom-progress .progress[data-percentage="50"] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
 .custom-progress .progress[data-percentage="50"] .progress-left .progress-bar {
   animation: 0;
+}*/
+
+.custom-progress .progress[data-percentage="3"] .progress-right .progress-bar {
+  animation: loading-5 1s linear forwards;
+}
+.custom-progress .progress[data-percentage="3"] .progress-left .progress-bar {
+  animation: loading-1 1s linear forwards 1s;
 }
 
-.custom-progress .progress[data-percentage="60"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
-.custom-progress .progress[data-percentage="60"] .progress-left .progress-bar {
-  animation: loading-1 1.5s linear forwards 1.5s;
-}
-
-.custom-progress .progress[data-percentage="70"] .progress-right .progress-bar {
+/*.custom-progress .progress[data-percentage="70"] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
 .custom-progress .progress[data-percentage="70"] .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.5s;
+}*/
+
+.custom-progress .progress[data-percentage="4"] .progress-right .progress-bar {
+  animation: loading-5 1s linear forwards;
+}
+.custom-progress .progress[data-percentage="4"] .progress-left .progress-bar {
+  animation: loading-3 1s linear forwards 1s;
 }
 
-.custom-progress .progress[data-percentage="80"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
-.custom-progress .progress[data-percentage="80"] .progress-left .progress-bar {
-  animation: loading-3 1.5s linear forwards 1.5s;
-}
-
-.custom-progress .progress[data-percentage="90"] .progress-right .progress-bar {
+/*.custom-progress .progress[data-percentage="90"] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
 .custom-progress .progress[data-percentage="90"] .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.5s;
-}
+}*/
 
-.custom-progress .progress[data-percentage="100"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
+.custom-progress .progress[data-percentage="5"] .progress-right .progress-bar {
+  animation: loading-5 1s linear forwards;
 }
-.custom-progress .progress[data-percentage="100"] .progress-left .progress-bar {
-  animation: loading-5 1.5s linear forwards 1.5s;
+.custom-progress .progress[data-percentage="5"] .progress-left .progress-bar {
+  animation: loading-5 1s linear forwards 1s;
 }
 
 @keyframes loading-1 {
@@ -1749,6 +1757,66 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	color: #fff;
 	font-weight: 400;
 }
+.mt--35{
+	margin-top: -35px;
+}
+.pt-100{
+	padding-top: 100px;
+}
+.scrollable-div{
+	width: 100%;
+    overflow-x: auto;
+    height: 9rem;
+    white-space: nowrap;
+}
+.scrollable-div .media-lib-img{
+	display: inline-block;
+}
+.scrollable-div img{
+	width: 11rem;
+	border-radius: 10px;
+}
+.scrollable-div .media-lib-img .card-img-actions{
+	margin-right: 10px;
+	background: transparent;
+}
+/*------------*/
+.rating-text-title{
+	font-size: 50px;
+    margin-bottom: 0;
+    line-height: 1.2;
+    margin-right: 12px;
+}
+.sml-ht-progress{
+	height: 10px;
+	border-radius: 26px;
+}
+.sml-ht-progress .progress-bar{
+	background-color: #008fd2;
+}
+.pt-8{
+	padding-top: 8px!important;
+}
+.scrollable-div::-webkit-scrollbar {
+	height: 5px;
+    border-radius: 26px;
+}
+.scrollable-div::-webkit-scrollbar-thumb {
+
+    background-color: #c5c5c5;
+    border-radius: 26px;
+}
+.animate-prog-bar{
+	animation: animate-prog-bar-cust 1s ease-in-out forwards;
+}
+@keyframes animate-prog-bar-cust {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} 
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -1757,10 +1825,22 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	.hide-desktop{
 		display: none!important;
 	}
+	.w-xl-55{
+		width: 55%;
+	}
+	.card-min-ht{
+		min-height: 500px!important;
+	}
 }
 @media(width: 1024px){
 	.img-link .badge{
 		font-size: 75%;
+	}
+	.font-sz-lg-10{
+		font-size: 10px;
+	}
+	.card-min-ht{
+		min-height: 513px!important;
 	}
 }
 @media(max-width: 1024px){
@@ -1830,6 +1910,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	    float: none;
 	}
 }
+@media (min-width: 769px){
+	.card-min-ht{
+		min-height: 538px;
+	}
+}
+
 @media (min-width: 768px){
 .sidebar-xs .sidebar-main.sidebar-dark .nav-sidebar>.nav-item-submenu>.nav-group-sub {
     background-color: #1b1b1b;
@@ -1874,6 +1960,9 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	.artist-card-wrapper{
 		padding-left: 0px;
 	}
+	.scrollable-div::-webkit-scrollbar {
+		height: 2px;
+	}
 }
 @media(max-width: 767px){
 	.sm-mob-mb{
@@ -1893,6 +1982,9 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	}
 	.mob-w-100{
 		width: 100%;
+	}
+	.mob-w-90{
+		width: 90%;
 	}
 	.masonry { 
 	/* Masonry container */
@@ -1945,6 +2037,15 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	}
 	.slider-sign-text img{
 		display: none;
+	}
+	.sm-pb-4{
+		padding-bottom: 4px;
+	}
+	.sm-mb-4{
+		margin-bottom: 4px;
+	}
+	.rating-text-title{
+		margin-right: 0;
 	}
 }
 @media(max-width: 411px){

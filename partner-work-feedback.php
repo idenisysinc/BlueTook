@@ -41,7 +41,7 @@
 					<div class="card">
 						<div class="card-body">
 							<div class="row">
-								<div class="col-xl-2 text-center">
+								<div class="col-xl-2 text-center sm-desktop-mb-10">
 									<img src="assets/images/placeholders/placeholder.jpg" class="rounded-circle mb-1" width="70" height="70" alt="">
 									<p class="m-0 font-weight-semibold">Swati Raj</p>
 									<p class="m-0 text-secondary">Kolkata</p>
@@ -53,10 +53,10 @@
 											<p class="m-0 float-lg-right">Posted: <span>10 days ago</span></p>
 										</div>
 										<!-- progress bar -->
-										<div class="clear-both pt-2 custom-progress w-xl-50">
+										<div class="clear-both pt-2 custom-progress w-xl-55">
 											<div class="row">
 												<div class="col-sm-4 text-center">
-													<div class="progress" data-percentage="20">
+													<div class="progress" data-percentage="1">
 														<span class="progress-left">
 															<span class="progress-bar"></span>
 														</span>
@@ -65,14 +65,14 @@
 														</span>
 														<div class="progress-value">
 															<div>
-																20%
+																1
 															</div>
 														</div>
 													</div>
 													<p>Creativity</p>
 												</div>
 												<div class="col-sm-4 text-center">
-													<div class="progress" data-percentage="40">
+													<div class="progress" data-percentage="2">
 														<span class="progress-left">
 															<span class="progress-bar"></span>
 														</span>
@@ -81,14 +81,14 @@
 														</span>
 														<div class="progress-value">
 															<div>
-																40%
+																2
 															</div>
 														</div>
 													</div>
-													<p>Proffesionalism</p>
+													<p>Proffessionalism</p>
 												</div>
 												<div class="col-sm-4 text-center">
-													<div class="progress" data-percentage="60">
+													<div class="progress" data-percentage="5">
 														<span class="progress-left">
 															<span class="progress-bar"></span>
 														</span>
@@ -97,11 +97,11 @@
 														</span>
 														<div class="progress-value">
 															<div>
-																60%
+																5
 															</div>
 														</div>
 													</div>
-													<p>Resonsiveness</p>
+													<p>Responsiveness</p>
 												</div>								
 											</div>
 										</div>
