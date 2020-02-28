@@ -85,11 +85,14 @@
     width: 100%;
     object-fit: cover;
 }
-#featuredSlider .bg-image{
+#featuredSlider .bg-image, #profileImageSlider .bg-image{
 	height: 70vh;
     width: 100%;
     object-fit: contain;
     border-radius: 15px;
+}
+#profileImageSlider .bg-image{
+	height: 50vh;
 }
 #featuredSlider .ribbon-div{
 	position: absolute;
@@ -97,12 +100,12 @@
 	right: -9px;
 	width: 130px;
 }
-#featuredSlider .carousel-inner{
+#featuredSlider .carousel-inner, #profileImageSlider .carousel-inner{
 	border-radius: 10px;
 	overflow: inherit;
 	background: #000;
 }
-#featuredSlider .carousel-item{
+#featuredSlider .carousel-item, #profileImageSlider .carousel-item{
 	transition: none;
 }
 #featuredSlider .carousel-caption{
@@ -359,13 +362,14 @@
 }
 .loc-dropdown{
 	border-radius: 10px;
-	border: none;
-	box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.49);
+    top: 45px!important;
+    border: none;
+    transform: none!important;
 }
 .loc-dropdown input{    
 	background-color: #e9e9e9;
     border: 1px solid #e9e9e9;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .blue-button{
 	background-color: #1686bd;
@@ -1516,7 +1520,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     background: #1e6fe8;
 }
 .blue-bg{
-	background: #1e6fe8;
+	background: #1686bd;
 }
 .custom-vertical-align{
 	display: flex;
@@ -1760,6 +1764,9 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .mt--35{
 	margin-top: -35px;
 }
+.mt--40{
+	margin-top: -40px;
+}
 .pt-100{
 	padding-top: 100px;
 }
@@ -1816,7 +1823,52 @@ Due to the split circle of progress-left and progress right, we must use the ani
   to {
     width: 100%;
   }
-} 
+}
+.input-box-shadow{
+	-webkit-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.17);
+	-moz-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.17);
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.17); 
+}
+.b-radius-left10{
+	border-radius: 10px 0px 0px 10px;
+}
+.b-radius-right10{
+	border-radius: 0px 10px 10px 0px;
+}
+.dark-gry-border{
+	border: 1px solid #bfbfbf;
+}
+.box-shadow-0{
+	box-shadow: none!important;
+}
+.h-45{
+	height: 45px;
+}
+.h-47{
+	height: 47px;
+}
+.gems-capsule{
+	padding-top: 10px!important;
+    padding-bottom: 9px!important;
+    margin-bottom: 10px;
+}
+.fit-cover-img{
+	object-fit: cover;
+}
+.h-150{
+	height: 150px;
+}
+.white-border5{
+	border: 5px solid #fff;
+}
+.favourite-icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.capsule-tags{
+	min-width: auto;
+}
 /*------- Media Query --------*/
 @media(min-width: 1025px){
 	.show-desktop{
@@ -1887,6 +1939,9 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	.tab-mb-10{
 		margin-bottom: 10px;
 	}
+	.tab-mb-0{
+		margin-bottom: 0px;
+	}
 	.contc-details{
 		margin-top: 30px;
 	}
@@ -1908,6 +1963,9 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	    height: 50vh!important;
 	    margin-bottom: 10px;
 	    float: none;
+	}
+	.tab-text-center{
+		text-align: center;
 	}
 }
 @media (min-width: 769px){
@@ -2046,6 +2104,9 @@ Due to the split circle of progress-left and progress right, we must use the ani
 	}
 	.rating-text-title{
 		margin-right: 0;
+	}
+	#profileImageSlider .bg-image{
+	height: 30vh;
 	}
 }
 @media(max-width: 411px){
