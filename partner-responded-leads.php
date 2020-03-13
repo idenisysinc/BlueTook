@@ -662,6 +662,12 @@
 
 	</div>
 	<!-- /page content -->
+	<!-- script for stop closing inside chat body-->
+	<script>
+		$('.chat-body').on('click', function(event){
+		    event.stopPropagation();
+		});
+	</script>
 
 </body>
 </html>
