@@ -266,6 +266,7 @@
 						<div class="card">
 							<div class="media-lib-img">
 								<div class="card-img-actions m-1">
+									<div class="cust-ribbon year-ribbon"><span>Y</span></div>
 									<img class="card-img-top img-fluid" src="assets/images/masonry/landscape-4.jpg" alt="">
 								</div>
 							</div>
@@ -276,6 +277,7 @@
 						<div class="card">
 							<div class="media-lib-img">
 								<div class="card-img-actions m-1">
+									<div class="cust-ribbon month-ribbon"><span>M</span></div>
 									<img class="card-img-top img-fluid" src="assets/images/masonry/portrait-2.jpg" alt="">
 								</div>
 							</div>
@@ -286,6 +288,7 @@
 						<div class="card">
 							<div class="media-lib-img">
 								<div class="card-img-actions m-1">
+									<div class="cust-ribbon week-ribbon"><span>W</span></div>
 									<img class="card-img-top img-fluid" src="assets/images/masonry/landscape-3.jpg" alt="">
 								</div>
 							</div>
@@ -315,6 +318,7 @@
 						<div class="card">
 							<div class="media-lib-img">
 								<div class="card-img-actions m-1">
+									<div class="cust-ribbon social-ribbon"><span>S</span></div>
 									<img class="card-img-top img-fluid" src="assets/images/masonry/landscape-1.jpg" alt="">
 								</div>
 							</div>

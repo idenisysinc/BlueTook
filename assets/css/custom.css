@@ -478,7 +478,7 @@
 .modal-cust, #viewDetailsModal, #videoDetailsModal, #bookNowModal{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 4; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
@@ -1868,6 +1868,68 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 .capsule-tags{
 	min-width: auto;
+}
+.cust-ribbon{
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #fff;
+	padding: 5px 10px;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.cust-ribbon span{
+	display: block;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	width: 11px;
+}
+.year-ribbon{
+	background: #ff4591;
+}
+.month-ribbon{
+	background: #ff7b4c;
+}
+.week-ribbon{
+	background: #9bb05a;
+}
+.social-ribbon{
+	background: #622ee1;
+}
+.cust-ribbon:after{
+	position: absolute;
+    content: "";
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 0;
+    border-width: 15px;
+    right: -14px;
+}
+.year-ribbon:after{
+	border-color: #ff4591 transparent #ff4591 #ff4591;
+}
+.month-ribbon:after{
+	border-color: #ff7b4c transparent #ff7b4c #ff7b4c;
+}
+.week-ribbon:after{
+	border-color: #9bb05a transparent #9bb05a #9bb05a;
+}
+.social-ribbon:after{
+	border-color: #622ee1 transparent #622ee1 #622ee1;
+}
+.cust-ribbon:nth-child(2) {
+  margin-left: 15%;
+}
+.cust-ribbon:nth-child(3) {
+  margin-left: 30%;
+}
+.cust-ribbon:nth-child(4) {
+  margin-left: 45%;
+}
+.modal-content-cust .cookie-font strong{
+	font-weight: 400!important;
 }
 /*------- Media Query --------*/
 @media(min-width: 1025px){
